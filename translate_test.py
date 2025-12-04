@@ -1,7 +1,36 @@
 import pandas as pd
 import html
 import yaml
+import sys
 from google.cloud import translate_v3 as translate
+
+def translate_text(text, project_id, glossary_id, location):
+    """指定されたテキストを用語集を使って翻訳する"""
+    client = translate.TranslationServiceClient()
+    parent = f"projects/{project_id}/locations/{location}"
+    
+    glossary_path = client.glossary_path(project_id, location, glossary_id)
+    glossary_config = translate.types.TranslateTextGlossaryConfig(
+        glossary=glossary_path
+    )
+
+    response = client.translate_text(
+        request={
+            "contents": [text],
+            "target_language_code": "ja",
+            "source_language_code": "en",
+            "parent": parent,
+            "glossary_config": glossary_config,
+            "mime_type": "text/plain",
+        }
+    )
+
+    if response.glossary_translations:
+        raw_text = response.glossary_translations[0].translated_text
+    else:
+        raw_text = response.translations[0].translated_text
+
+    return html.unescape(raw_text)
 
 def run_glossary_test(
     project_id="YOUR_PROJECT_ID",
@@ -38,7 +67,7 @@ def run_glossary_test(
                 "source_language_code": "en",
                 "parent": parent,
                 "glossary_config": glossary_config,
-                "mime_type": "text/plain", # 明示的に指定することをおすすめします
+                "mime_type": "text/plain",
             }
         )
 
@@ -47,11 +76,8 @@ def run_glossary_test(
         else:
             raw_text = response.translations[0].translated_text
 
-        # --- 追加 2: ここで &quot; を " に戻します ---
         actual_text = html.unescape(raw_text)
-        # ----------------------------------------
 
-        # 比較（前後の空白除去も忘れずに）
         is_match = (actual_text.strip() == expected_text.strip())
         
         result_mark = "✅ OK" if is_match else "❌ NG"
@@ -60,7 +86,7 @@ def run_glossary_test(
 
         print(f"原文 (en)  : {source_text}")
         print(f"期待値 (ja): {expected_text}")
-        print(f"翻訳結果   : {actual_text}") # 修正後のテキストを表示
+        print(f"翻訳結果   : {actual_text}")
         print(f"判定       : {result_mark}")
         print("-" * 30)
 
@@ -71,8 +97,22 @@ if __name__ == "__main__":
     with open("data.yml", "r") as f:
         config = yaml.safe_load(f)
 
-    run_glossary_test(
-        project_id=config["project_id"],
-        glossary_id=config["glossary_id"],
-        location=config["location"]
-    )
+    # コマンドライン引数がある場合は、その単語を翻訳する
+    if len(sys.argv) > 1:
+        text_to_translate = sys.argv[1]
+        print(f"--- 単語翻訳モード ---")
+        result = translate_text(
+            text_to_translate,
+            config["project_id"],
+            config["glossary_id"],
+            config["location"]
+        )
+        print(f"原文: {text_to_translate}")
+        print(f"翻訳: {result}")
+    else:
+        # 引数がない場合は通常のランダムテストを実行
+        run_glossary_test(
+            project_id=config["project_id"],
+            glossary_id=config["glossary_id"],
+            location=config["location"]
+        )

@@ -1,6 +1,32 @@
 import yaml
+import re
+import sys
 from google.cloud import translate_v3 as translate
+from google.cloud import storage
 from google.api_core.exceptions import NotFound
+
+def upload_to_gcs(project_id, local_file, bucket_uri):
+    """ローカルファイルをGCSにアップロードする"""
+    # gs://bucket_name/path/to/file からバケット名とパスを抽出
+    match = re.match(r'gs://([^/]+)/(.+)', bucket_uri)
+    if not match:
+        print(f"エラー: bucket_uri の形式が不正です: {bucket_uri}")
+        return False
+
+    bucket_name = match.group(1)
+    blob_name = match.group(2)
+
+    print(f"0. GCSへアップロード中: {local_file} -> {bucket_uri}")
+    try:
+        storage_client = storage.Client(project=project_id)
+        bucket = storage_client.bucket(bucket_name)
+        blob = bucket.blob(blob_name)
+        blob.upload_from_filename(local_file)
+        print("   -> アップロード完了。")
+        return True
+    except Exception as e:
+        print(f"   -> アップロード失敗: {e}")
+        return False
 
 def recreate_glossary(
     project_id="YOUR_PROJECT_ID",
@@ -8,6 +34,14 @@ def recreate_glossary(
     glossary_id="YOUR_GLOSSARY_ID",
     location="LOCATION"
 ):
+    local_csv_file = "zzz_glossary.csv"  # ローカルのCSVファイル名
+    # --- 追加: CSVのアップロード処理 ---
+    if local_csv_file:
+        if not upload_to_gcs(project_id, local_csv_file, bucket_uri):
+            print("処理を中断します。")
+            return
+    # --------------------------------
+
     client = translate.TranslationServiceClient()
     parent = f"projects/{project_id}/locations/{location}"
     name = f"{parent}/glossaries/{glossary_id}"
@@ -47,7 +81,7 @@ def recreate_glossary(
     # 3. 結果確認
     print("3. 作成完了！ステータス確認:")
     print(f"   - 名前: {result.name}")
-    print(f"   - エントリ数: {result.entry_count} 件") # ★ここが 0 だと失敗しています
+    print(f"   - エントリ数: {result.entry_count} 件")
     print(f"   - 入力URI: {result.input_config.gcs_source.input_uri}")
 
     if result.entry_count > 0:
@@ -59,6 +93,9 @@ if __name__ == "__main__":
     # data.yml から設定を読み込む
     with open("data.yml", "r") as f:
         config = yaml.safe_load(f)
+
+    # csv_file キーがない場合のフォールバック
+    csv_file = config.get("csv_file", "zzz_glossary.csv")
 
     recreate_glossary(
         project_id=config["project_id"],

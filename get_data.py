@@ -1,6 +1,4 @@
-import os
 import time
-import json
 import csv
 import requests
 from bs4 import BeautifulSoup
@@ -9,30 +7,46 @@ from urllib.parse import urljoin
 # ベースURL
 BASE_URL = "https://zenless-zone-zero.fandom.com"
 
-# WebからAllPagesのURLリストを取得する
+# WebからAllPagesのURLリストを取得する (全ページ対応版)
 def get_page_urls_from_web():
-  url = "https://zenless-zone-zero.fandom.com/wiki/Special:AllPages"
-  urls = []
+  # 最初のページ
+  current_url = "https://zenless-zone-zero.fandom.com/wiki/Special:AllPages"
+  all_urls = []
   
-  try:
-    print(f"Fetching AllPages list from: {url}")
-    response = requests.get(url)
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
-    
-    # <ul class="mw-allpages-chunk"> の中の li > a を探す
-    chunk_ul = soup.find('ul', class_='mw-allpages-chunk')
-    if chunk_ul:
-      links = chunk_ul.find_all('a')
-      for link in links:
-        href = link.get('href')
-        if href:
-          full_url = urljoin(BASE_URL, href)
-          urls.append(full_url)
-  except Exception as e:
-    print(f"Error fetching AllPages: {e}")
+  while current_url:
+    try:
+      print(f"Fetching AllPages list from: {current_url}")
+      response = requests.get(current_url)
+      response.raise_for_status()
+      soup = BeautifulSoup(response.text, 'html.parser')
+      
+      # 1. 現在のページのリストから記事URLを抽出
+      # <ul class="mw-allpages-chunk"> の中の li > a を探す
+      chunk_ul = soup.find('ul', class_='mw-allpages-chunk')
+      if chunk_ul:
+        links = chunk_ul.find_all('a')
+        for link in links:
+          href = link.get('href')
+          if href:
+            full_url = urljoin(BASE_URL, href)
+            all_urls.append(full_url)
+      
+      # 2. "Next page" のリンクを探して次へ遷移する
+      # テキストに "Next page" を含む <a> タグを探す
+      next_link = soup.find('a', string=lambda text: text and "Next page" in text)
 
-  return urls
+      if next_link:
+        next_href = next_link.get('href')
+        current_url = urljoin(BASE_URL, next_href)
+      else:
+        print("No 'Next page' link found. Reached the last page.")
+        current_url = None
+
+    except Exception as e:
+      print(f"Error fetching AllPages: {e}")
+      break
+
+  return all_urls
 
 # 個別のページから日英の名称を抽出する
 def extract_names_from_url(url):

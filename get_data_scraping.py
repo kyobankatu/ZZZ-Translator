@@ -1,6 +1,8 @@
 import time
 import csv
 import requests
+import yaml  # 追加
+import os    # 追加
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
@@ -85,11 +87,8 @@ def extract_names_from_url(url):
 
     # Englishが見つからない場合（テーブルがない、またはテーブルに情報がない） -> ページタイトルを両方に適用
     if not english_name:
-      header = soup.find('h1', class_='page-header__title')
-      if header:
-        page_title = header.get_text(strip=True)
-        english_name = page_title
-        japanese_name = page_title
+      english_name = None
+      japanese_name = None
 
     return english_name, japanese_name
 
@@ -98,6 +97,17 @@ def extract_names_from_url(url):
     return None, None
 
 def main():
+  # data.yml から設定を読み込む
+  config = {}
+  if os.path.exists("data.yml"):
+      with open("data.yml", "r") as f:
+          config = yaml.safe_load(f)
+  
+  output_file = config.get("scraping_output")
+  if not output_file:
+    print("エラー: data.yml に scraping_output の設定がありません。")
+    return
+
   # WebからURLリストを取得
   urls = get_page_urls_from_web()
   print(f"Found {len(urls)} pages.")
@@ -117,10 +127,9 @@ def main():
       print("  Skipping: Translation not found.")
     
     # サーバー負荷軽減のため待機
-    #time.sleep(1)
+    #time.sleep(0.5)
 
   # CSVファイルとして保存 (Google Cloud Translation API Glossary format)
-  output_file = "zzz_glossary.csv"
   with open(output_file, 'w', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
     # ヘッダー書き込み

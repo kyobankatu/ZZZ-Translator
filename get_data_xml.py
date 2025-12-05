@@ -1,15 +1,8 @@
 import xml.etree.ElementTree as ET
 import csv
 import re
-import sys
 import os
-
-# --- 設定 ---
-# XMLファイルのパス (デスクトップにあるファイルを指定)
-XML_FILE = "/Users/kota/Desktop/zenlesszonezero_pages_current.xml"
-# 出力するCSVファイル名
-OUTPUT_CSV = "zzz_glossary.csv"
-# ------------
+import yaml
 
 def get_template_content(text, template_name):
     """
@@ -85,17 +78,31 @@ def clean_wikitext(text):
     return text
 
 def main():
-    if not os.path.exists(XML_FILE):
-        print(f"エラー: XMLファイルが見つかりません: {XML_FILE}")
-        print("正しいパスを設定してください。")
+    # data.yml から設定を読み込む
+    config = {}
+    if os.path.exists("data.yml"):
+        with open("data.yml", "r") as f:
+            config = yaml.safe_load(f)
+    
+    xml_file = config.get("xml_file")
+    output_csv = config.get("xml_output")
+    if not xml_file:
+        print("エラー: data.yml に xml_file の設定がありません。")
+        return
+    if not output_csv:
+        print("エラー: data.yml に xml_output の設定がありません。")
         return
 
-    print(f"XMLファイルを解析中: {XML_FILE} ...")
+    if not os.path.exists(xml_file):
+        print(f"エラー: XMLファイルが見つかりません: {xml_file}")
+        print("data.yml の xml_file の設定を確認してください。")
+        return
+
+    print(f"XMLファイルを解析中: {xml_file} ...")
     
     try:
         # XMLをパース
-        # iterparseを使うとメモリ効率が良いが、ファイルサイズが数GBでなければparseで十分
-        tree = ET.parse(XML_FILE)
+        tree = ET.parse(xml_file)
         root = tree.getroot()
     except Exception as e:
         print(f"XML解析エラー: {e}")
@@ -155,11 +162,11 @@ def main():
     # CSV書き出し
     if results:
         print(f"抽出された用語数: {len(results)}")
-        with open(OUTPUT_CSV, 'w', newline='', encoding='utf-8') as f:
+        with open(output_csv, 'w', newline='', encoding='utf-8') as f:
             writer = csv.DictWriter(f, fieldnames=['en', 'ja'])
             writer.writeheader()
             writer.writerows(results)
-        print(f"保存完了: {OUTPUT_CSV}")
+        print(f"保存完了: {output_csv}")
     else:
         print("用語が見つかりませんでした。")
 

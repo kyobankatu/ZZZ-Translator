@@ -7,7 +7,6 @@ from google.api_core.exceptions import NotFound
 
 def upload_to_gcs(project_id, local_file, bucket_uri):
     """ローカルファイルをGCSにアップロードする"""
-    # gs://bucket_name/path/to/file からバケット名とパスを抽出
     match = re.match(r'gs://([^/]+)/(.+)', bucket_uri)
     if not match:
         print(f"エラー: bucket_uri の形式が不正です: {bucket_uri}")
@@ -34,13 +33,11 @@ def recreate_glossary(
     glossary_id="YOUR_GLOSSARY_ID",
     location="LOCATION"
 ):
-    local_csv_file = "zzz_glossary.csv"  # ローカルのCSVファイル名
-    # --- 追加: CSVのアップロード処理 ---
+    local_csv_file = "resource/zzz_glossary.csv"  # ローカルのCSVファイル名
     if local_csv_file:
         if not upload_to_gcs(project_id, local_csv_file, bucket_uri):
             print("処理を中断します。")
             return
-    # --------------------------------
 
     client = translate.TranslationServiceClient()
     parent = f"projects/{project_id}/locations/{location}"
@@ -49,7 +46,6 @@ def recreate_glossary(
     print(f"--- 用語集の再構築を開始します ---")
     print(f"Target: {name}")
 
-    # 1. 既存の用語集があれば削除
     try:
         print("1. 既存の用語集を検索中...")
         client.get_glossary(name=name)
@@ -60,7 +56,6 @@ def recreate_glossary(
     except NotFound:
         print("   -> 既存の用語集はありませんでした。")
 
-    # 2. 新規作成
     print("2. 新しい用語集を作成中 (GCSから読み込み)...")
     
     language_codes_set = translate.types.Glossary.LanguageCodesSet(
@@ -78,7 +73,6 @@ def recreate_glossary(
     operation = client.create_glossary(parent=parent, glossary=glossary_config)
     result = operation.result(timeout=180)
 
-    # 3. 結果確認
     print("3. 作成完了！ステータス確認:")
     print(f"   - 名前: {result.name}")
     print(f"   - エントリ数: {result.entry_count} 件")
@@ -90,12 +84,10 @@ def recreate_glossary(
         print("\n⚠️ 警告: エントリ数が 0 です。CSVファイルの中身やGCSパスを確認してください。")
 
 if __name__ == "__main__":
-    # data.yml から設定を読み込む
-    with open("data.yml", "r") as f:
+    with open("resource/data.yml", "r") as f:
         config = yaml.safe_load(f)
 
-    # csv_file キーがない場合のフォールバック
-    csv_file = config.get("csv_file", "zzz_glossary.csv")
+    csv_file = config.get("csv_file", "resource/zzz_glossary.csv")
 
     recreate_glossary(
         project_id=config["project_id"],

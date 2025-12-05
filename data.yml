@@ -1,7 +1,0 @@
-project_id: "zzz-searchapp"
-location: "us-central1"
-glossary_id: "zzz-glossary"
-bucket_uri: "gs://zzz-glossary/zzz_glossary.csv"
-xml_file: "./zenlesszonezero_pages_current.xml"
-scraping_output: "zzz_glossary_scraping.csv"
-xml_output: "zzz_glossary_xml.csv"

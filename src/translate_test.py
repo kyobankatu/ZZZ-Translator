@@ -46,7 +46,7 @@ def run_glossary_test(
     )
 
     try:
-        df = pd.read_csv("zzz_glossary.csv")
+        df = pd.read_csv("resource/zzz_glossary.csv")
         sample_size = min(10, len(df))
         samples = df.sample(n=sample_size)
     except Exception as e:
@@ -94,7 +94,7 @@ def run_glossary_test(
 
 if __name__ == "__main__":
     # data.yml から設定を読み込む
-    with open("data.yml", "r") as f:
+    with open("resource/data.yml", "r") as f:
         config = yaml.safe_load(f)
 
     # コマンドライン引数がある場合は、その単語を翻訳する

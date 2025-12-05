@@ -9,8 +9,6 @@ def get_template_content(text, template_name):
     テキストから指定されたテンプレートの中身を抽出する。
     ネストされた {{ }} に対応するため、単純な正規表現ではなく括弧のバランスをカウントします。
     """
-    # テンプレートの開始位置を探す (大文字小文字区別なし)
-    # {{TemplateName|... または {{TemplateName}} にマッチ
     pattern = re.compile(r'\{\{\s*' + re.escape(template_name) + r'\s*[|}]', re.IGNORECASE)
     match = pattern.search(text)
     if not match:
@@ -30,7 +28,6 @@ def get_template_content(text, template_name):
             balance -= 1
             i += 2
             if balance == 0:
-                # テンプレート全体を返す ({{ ... }})
                 return text[start_pos:i]
             continue
         i += 1
@@ -41,24 +38,13 @@ def parse_template_params(template_text):
     テンプレート文字列からパラメータを辞書形式で抽出する
     例: {{Other Languages|en=Name|ja=名前}} -> {'en': 'Name', 'ja': '名前'}
     """
-    # 外側の {{ }} を除去
     content = template_text[2:-2]
     
     params = {}
-    # パイプ | で分割するが、ネストされたリンク [[A|B]] 内のパイプは無視したい
-    # 簡易的に、行頭または | の直後にパラメータ名が来る構造を利用して抽出
-    
-    # 単純な split('|') だとリンク内のパイプで壊れるため、正規表現で key=value を探す
-    # 行頭またはパイプの後に、空白、キー、=、値、というパターン
-    # 値は次のパイプまたは末尾まで (非貪欲)
-    
-    # 簡易パーサー: パイプで分割し、'='が含まれるものを採用する
-    # (厳密なMediaWikiパースは複雑なため、用語集用途として割り切る)
     parts = content.split('|')
     
     for part in parts:
         if '=' in part:
-            # 最初の = で分割
             key, val = part.split('=', 1)
             params[key.strip()] = val.strip()
             
@@ -69,19 +55,15 @@ def clean_wikitext(text):
     if not text:
         return ""
     
-    # [[Link|Text]] -> Text
     text = re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]+)\]\]', r'\1', text)
-    # HTMLタグ除去 (<br>, <small>など)
     text = re.sub(r'<[^>]+>', '', text)
-    # 連続する空白を1つに
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 def main():
-    # data.yml から設定を読み込む
     config = {}
-    if os.path.exists("data.yml"):
-        with open("data.yml", "r") as f:
+    if os.path.exists("resource/data.yml"):
+        with open("resource/data.yml", "r") as f:
             config = yaml.safe_load(f)
     
     xml_file = config.get("xml_file")
@@ -101,36 +83,29 @@ def main():
     print(f"XMLファイルを解析中: {xml_file} ...")
     
     try:
-        # XMLをパース
         tree = ET.parse(xml_file)
         root = tree.getroot()
     except Exception as e:
         print(f"XML解析エラー: {e}")
         return
 
-    # MediaWikiのエクスポートXMLには名前空間がついている場合がある
-    # 例: {http://www.mediawiki.org/xml/export-0.11/}
     m = re.match(r'\{(.*)\}', root.tag)
     ns = {'mw': m.group(1)} if m else {}
     
-    # ページ要素を取得
     pages = root.findall('mw:page', ns) if ns else root.findall('page')
     print(f"ページ数: {len(pages)}")
 
     results = []
     
     for page in pages:
-        # タイトル取得
         title_elem = page.find('mw:title', ns) if ns else page.find('title')
         if title_elem is None: continue
         title = title_elem.text
 
-        # 名前空間チェック (標準名前空間 '0' のみ対象)
         ns_elem = page.find('mw:ns', ns) if ns else page.find('ns')
         if ns_elem is not None and ns_elem.text != '0':
             continue
 
-        # 本文取得
         revision = page.find('mw:revision', ns) if ns else page.find('revision')
         if revision is None: continue
         text_elem = revision.find('mw:text', ns) if ns else revision.find('text')
@@ -138,7 +113,6 @@ def main():
         
         text = text_elem.text
 
-        # {{Other Languages}} テンプレートを探す
         ol_template = get_template_content(text, "Other Languages")
         
         if ol_template:
@@ -147,7 +121,6 @@ def main():
             ja_text = params.get('ja')
             en_text = params.get('en')
             
-            # enパラメータがない場合はページタイトルを使用
             if not en_text:
                 en_text = title
             
@@ -155,11 +128,9 @@ def main():
                 clean_ja = clean_wikitext(ja_text)
                 clean_en = clean_wikitext(en_text)
                 
-                # 日本語があり、かつ英語と異なる場合のみ登録
                 if clean_ja and clean_ja != clean_en:
                     results.append({'en': clean_en, 'ja': clean_ja})
 
-    # CSV書き出し
     if results:
         print(f"抽出された用語数: {len(results)}")
         with open(output_csv, 'w', newline='', encoding='utf-8') as f:

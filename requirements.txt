@@ -1,0 +1,16 @@
+pandas
+PyYAML
+google-cloud-translate
+google-cloud-storage
+requests
+beautifulsoup4
+inflect
+pandas
+PyYAML
+google-cloud-translate
+google-cloud-storage
+requests
+beautifulsoup4
+inflect
+google-generativeai
+tqdm

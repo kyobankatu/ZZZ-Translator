@@ -110,34 +110,50 @@ def main():
     urls = get_page_urls_from_web()
     print(f"Found {len(urls)} pages.")
 
-    dataset = []
+    # 出力パスの調整: 設定値にディレクトリが含まれていない場合は resource/ を付与
+    if os.path.dirname(output_file):
+        save_path = output_file
+    else:
+        save_path = os.path.join("resource", output_file)
 
-    for url in urls:
-        en, ja = extract_names_from_url(url)
-        
-        if en and ja:
-            print(f"  Found: EN={en}, JA={ja}")
-            dataset.append({
-                "english": en,
-                "japanese": ja
-            })
-        else:
-            print("  Skipping: Translation not found.")
-        
-        # サーバー負荷軽減のため待機
-        #time.sleep(0.5)
+    print(f"Output file: {save_path}")
 
-    # CSVファイルとして保存 (Google Cloud Translation API Glossary format)
-    with open(f'resource/{output_file}', 'w', encoding='utf-8', newline='') as f:
+    # CSVファイルを書き込みモードで開き、ヘッダーを書き込む
+    with open(save_path, 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
-        # ヘッダー書き込み
         writer.writerow(['en', 'ja'])
         
-        # データ書き込み
-        for item in dataset:
-            writer.writerow([item['english'], item['japanese']])
+        buffer = []
+        total_saved = 0
+        BATCH_SIZE = 30
+
+        for url in urls:
+            en, ja = extract_names_from_url(url)
+            
+            if en and ja:
+                print(f"  Found: EN={en}, JA={ja}")
+                buffer.append([en, ja])
+            else:
+                print("  Skipping: Translation not found.")
+            
+            # バッファが溜まったら書き込む
+            if len(buffer) >= BATCH_SIZE:
+                writer.writerows(buffer)
+                total_saved += len(buffer)
+                print(f"  -> Saved batch of {len(buffer)} items (Total: {total_saved})")
+                buffer = [] # バッファをクリア
+                f.flush()   # ディスクへの書き込みを確実にする
+
+            # サーバー負荷軽減のため待機
+            #time.sleep(0.5)
+
+        # ループ終了後、残りのデータを書き込む
+        if buffer:
+            writer.writerows(buffer)
+            total_saved += len(buffer)
+            print(f"  -> Saved remaining {len(buffer)} items")
     
-    print(f"Saved {len(dataset)} items to resource/{output_file}")
+    print(f"Saved total {total_saved} items to {save_path}")
 
 if __name__== "__main__":
     main()

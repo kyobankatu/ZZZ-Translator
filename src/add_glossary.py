@@ -51,7 +51,8 @@ def recreate_glossary(
         client.get_glossary(name=name)
         print("   -> 見つかりました。削除を実行します...")
         operation = client.delete_glossary(name=name)
-        operation.result(timeout=180)
+        # 削除も時間がかかる場合があるので延ばしておく
+        operation.result(timeout=600) 
         print("   -> 削除完了。")
     except NotFound:
         print("   -> 既存の用語集はありませんでした。")
@@ -71,7 +72,9 @@ def recreate_glossary(
     )
 
     operation = client.create_glossary(parent=parent, glossary=glossary_config)
-    result = operation.result(timeout=180)
+    
+    # タイムアウトを180秒から600秒に変更
+    result = operation.result(timeout=600)
 
     print("3. 作成完了！ステータス確認:")
     print(f"   - 名前: {result.name}")

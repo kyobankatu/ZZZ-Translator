@@ -4,7 +4,7 @@ import yaml
 import sys
 from google.cloud import translate_v3 as translate
 
-def translate_text(text, project_id, glossary_id, location):
+def translate_text(text, project_id, glossary_id, location, source_lang="en", target_lang="ja"):
     """指定されたテキストを用語集を使って翻訳する"""
     client = translate.TranslationServiceClient()
     parent = f"projects/{project_id}/locations/{location}"
@@ -17,8 +17,8 @@ def translate_text(text, project_id, glossary_id, location):
     response = client.translate_text(
         request={
             "contents": [text],
-            "target_language_code": "ja",
-            "source_language_code": "en",
+            "target_language_code": target_lang,
+            "source_language_code": source_lang,
             "parent": parent,
             "glossary_config": glossary_config,
             "mime_type": "text/plain",
@@ -94,18 +94,26 @@ def run_glossary_test(
 
 if __name__ == "__main__":
     # data.yml から設定を読み込む
-    with open("resource/data.yml", "r") as f:
+    with open("resource/data.yml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
 
     # コマンドライン引数がある場合は、その単語を翻訳する
     if len(sys.argv) > 1:
         text_to_translate = sys.argv[1]
-        print(f"--- 単語翻訳モード ---")
+        
+        # 第2引数、第3引数で言語指定（デフォルトは en -> ja）
+        # 使用例: python src/translate_test.py "日本語テキスト" ja en
+        source_lang = sys.argv[2] if len(sys.argv) > 2 else "en"
+        target_lang = sys.argv[3] if len(sys.argv) > 3 else "ja"
+
+        print(f"--- 単語翻訳モード ({source_lang} -> {target_lang}) ---")
         result = translate_text(
             text_to_translate,
             config["project_id"],
             config["glossary_id"],
-            config["location"]
+            config["location"],
+            source_lang,
+            target_lang
         )
         print(f"原文: {text_to_translate}")
         print(f"翻訳: {result}")

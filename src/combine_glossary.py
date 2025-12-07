@@ -4,8 +4,41 @@ import os
 import re
 import inflect
 import time
+import csv
 import google.generativeai as genai
 from tqdm import tqdm
+
+# キャッシュファイルのパス
+CACHE_FILE = "resource/ai_cleaning_cache.csv"
+
+def load_cache():
+    """キャッシュファイルを読み込み、辞書として返す"""
+    cache = {}
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, mode='r', encoding='utf-8', newline='') as f:
+                reader = csv.reader(f)
+                for row in reader:
+                    if len(row) >= 2:
+                        cache[row[0]] = row[1]
+            print(f"キャッシュを読み込みました: {len(cache)}件")
+        except Exception as e:
+            print(f"キャッシュ読み込みエラー: {e}")
+    return cache
+
+def save_to_cache(new_data):
+    """新しいクリーニング結果をキャッシュに追記する"""
+    if not new_data:
+        return
+    try:
+        # 追記モードで開く
+        with open(CACHE_FILE, mode='a', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            for original, cleaned in new_data.items():
+                writer.writerow([original, cleaned])
+        print(f"キャッシュに {len(new_data)} 件追記しました。")
+    except Exception as e:
+        print(f"キャッシュ保存エラー: {e}")
 
 def clean_text_with_ai(model, text_list):
     """
@@ -16,7 +49,7 @@ def clean_text_with_ai(model, text_list):
     これらを削除し、正しい日本語の名称のみに修正してください。
     
     ルール:
-    1. ローマ字読み（Zenresu...）は削除する。
+    1. ローマ字読みや発音記号（Zenresu...）は削除する。
     2. 英語の重複（Chapter 1...）は削除する。
     3. 記号だけの注釈（[!][!]）は削除する。
     4. 正しい日本語タイトル（「マークII」「BGM、ON」など）は維持する。
@@ -34,7 +67,6 @@ def clean_text_with_ai(model, text_list):
         
         # 入力と出力の数が合わない場合の安全策
         if len(cleaned_text) != len(text_list):
-            # 数が合わない場合はリスク回避のため変更しない
             return text_list 
             
         return [t.strip() for t in cleaned_text]
@@ -56,6 +88,8 @@ def combine_glossaries():
     target_files = []
     if "scraping_output" in config: target_files.append(config["scraping_output"])
     if "xml_output" in config: target_files.append(config["xml_output"])
+    if "detail_output" in config: target_files.append(config["detail_output"])
+    if "additional_glossary" in config: target_files.append(config["additional_glossary"])
 
     output_file = "resource/zzz_glossary.csv"
     combined_data = []
@@ -83,15 +117,12 @@ def combine_glossaries():
         if not api_key:
             print("警告: GOOGLE_API_KEY が設定されていません。AIクリーニングをスキップします。")
         else:
-            print("AIクリーニングを開始します (Gemini API使用)...")
-            genai.configure(api_key=api_key)
-            model = genai.GenerativeModel('gemini-2.5-flash')
-
+            # キャッシュの読み込み
+            cache = load_cache()
+            
             def is_mixed_jp_en(text):
                 if not isinstance(text, str): return False
-                # 日本語文字(ひらがな・カタカナ・漢字)が含まれているか
                 has_jp = re.search(r'[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF]', text)
-                # 英字が含まれているか
                 has_en = re.search(r'[a-zA-Z]', text)
                 return bool(has_jp and has_en)
 
@@ -100,39 +131,51 @@ def combine_glossaries():
             target_indices = combined_df[target_mask].index.tolist()
             
             if target_indices:
-                print(f"対象件数: {len(target_indices)}件 (日本語・英語混在)")
+                print(f"対象候補: {len(target_indices)}件 (日本語・英語混在)")
                 
-                # 1日のリクエスト制限(250回)を考慮してバッチサイズを増やす
-                # 50件 * 250回 = 最大12,500件まで処理可能
-                batch_size = 50
-                updates = {}
-                request_count = 0
-                max_requests = 250 # 1日の上限
+                indices_to_process = []
+                updates_from_cache = {}
+
+                # キャッシュにあるものは即適用、ないものはAPI処理リストへ
+                for idx in target_indices:
+                    original_text = combined_df.at[idx, 'ja']
+                    if original_text in cache:
+                        updates_from_cache[idx] = cache[original_text]
+                    else:
+                        indices_to_process.append(idx)
                 
-                # プログレスバー付きでバッチ処理
-                for i in tqdm(range(0, len(target_indices), batch_size)):
-                    # リクエスト数制限のチェック
-                    if request_count >= max_requests:
-                        print(f"\n1日のAPIリクエスト上限({max_requests}回)に達したため、AIクリーニングを中断します。")
-                        break
+                # キャッシュ適用
+                if updates_from_cache:
+                    print(f"キャッシュから {len(updates_from_cache)} 件を適用します。")
+                    for idx, cleaned in updates_from_cache.items():
+                        combined_df.at[idx, 'ja'] = cleaned
 
-                    batch_indices = target_indices[i:i+batch_size]
-                    batch_texts = combined_df.loc[batch_indices, 'ja'].tolist()
+                # API処理が必要なものがある場合
+                if indices_to_process:
+                    print(f"新たにAIクリーニングを実行します: {len(indices_to_process)}件")
+                    genai.configure(api_key=api_key)
+                    model = genai.GenerativeModel('gemini-2.5-flash')
                     
-                    cleaned_texts = clean_text_with_ai(model, batch_texts)
-                    request_count += 1
+                    batch_size = 50
+                    new_cache_data = {}
                     
-                    for idx, cleaned in zip(batch_indices, cleaned_texts):
-                        updates[idx] = cleaned
-                    
-                    # RPM制限(10回/分)を回避するため待機
-                    # 1分間に6回程度に抑えるため、10秒待機する
-                    time.sleep(10)
+                    for i in tqdm(range(0, len(indices_to_process), batch_size)):
+                        batch_indices = indices_to_process[i:i+batch_size]
+                        batch_texts = combined_df.loc[batch_indices, 'ja'].tolist()
+                        
+                        cleaned_texts = clean_text_with_ai(model, batch_texts)
+                        
+                        for idx, original, cleaned in zip(batch_indices, batch_texts, cleaned_texts):
+                            combined_df.at[idx, 'ja'] = cleaned
+                            new_cache_data[original] = cleaned
+                        
+                        time.sleep(10) # レート制限回避
 
-                # 結果を適用
-                print("クリーニング結果を適用中...")
-                for idx, cleaned in updates.items():
-                    combined_df.at[idx, 'ja'] = cleaned
+                    # 新しい結果をキャッシュに保存
+                    save_to_cache(new_cache_data)
+                else:
+                    print("全ての対象データがキャッシュ済みのため、APIリクエストはスキップされました。")
+
             else:
                 print("クリーニング対象が見つかりませんでした。")
         # -------------------------------------------------------
@@ -143,18 +186,30 @@ def combine_glossaries():
         # --- 追加処理: バリエーションの生成 ---
         new_rows = []
         for index, row in combined_df.iterrows():
-            en_term = str(row['en'])
-            ja_term = str(row['ja'])
+            en_term = str(row['en']).strip() # 空白除去を追加
+            ja_term = str(row['ja']).strip()
 
             # 1. 複数形の追加 (英語のみ)
-            if ' ' not in en_term:
-                plural_en = p.plural(en_term)
-                if plural_en and plural_en != en_term:
-                    new_rows.append({'en': plural_en, 'ja': ja_term})
+            # 空文字でない、かつ単語数が4以下の場合のみ処理
+            if en_term and len(en_term.split()) <= 4:
+                try:
+                    plural_en = p.plural(en_term)
+                    if plural_en and plural_en != en_term:
+                        new_rows.append({'en': plural_en, 'ja': ja_term})
+                except Exception:
+                    # inflectでエラーが出ても無視して次へ進む
+                    pass
 
-            # 2. タグ除去バージョンの追加
+            # 2. タグ・カテゴリ除去バージョンの追加
+            # [Tag] 形式の除去
             cleaned_en = re.sub(r'^\[.*?\]\s*', '', en_term)
             cleaned_ja = re.sub(r'^\[.*?\]\s*', '', ja_term)
+
+            # Category: 形式の除去 (コロン区切りの接頭辞を除去)
+            # 例: "Defensive Assist: Drifting Petalss" -> "Drifting Petalss"
+            # 例: "パリィ支援：花筏" -> "花筏"
+            cleaned_en = re.sub(r'^.+?[:：]\s*', '', cleaned_en)
+            cleaned_ja = re.sub(r'^.+?[:：]\s*', '', cleaned_ja)
 
             if (cleaned_en != en_term or cleaned_ja != ja_term):
                 if len(cleaned_en) > 1 and len(cleaned_ja) > 0:

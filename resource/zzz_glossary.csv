@@ -1,20 +1,20 @@
 en,ja
 !Bug!,!Bug!
-"""4WD - Crimson Comet""",「4WD-クリムゾン・コメット」
-"""4WD - Street Legend""",「4WD-ストリート・レジェンド」
-"""4WD - Wasteland Knight""",「4WD-ウェイストランド・ナイト」
+"""4WD - Crimson Comet""",4WD-クリムゾン・コメット
+"""4WD - Street Legend""",4WD-ストリート・レジェンド
+"""4WD - Wasteland Knight""",4WD-ウェイストランド・ナイト
 """A Promise Unbroken""",「バラさないよ」
-"""Absolute Trouble""",「いたずら大好き」
+"""Absolute Trouble""",いたずら大好き
 """After the Battle""",「激闘の果て」
 """An Invitation or Provocation?""",「お誘い、それとも挑発？」
 """Anonymity""",「名無し」
 """BFFs""",「最高の友達」
-"""Backstream""",「巻き戻し」
+"""Backstream""",巻き戻し
 """Bangboo, Ready to Work!""",「ボンプ代理出勤！」
 """Black Boxing Gloves""",「黒いグローブ」
-"""Bodhi Has No Tree""",「元から何もなかった」
+"""Bodhi Has No Tree""",元から何もなかった
 """Careful Contemplation""",「長考」
-"""Change of plans""",「計画通り」じゃない
+"""Change of plans""",計画通りじゃない
 """Clarity of Mind""",「雑念を払う」
 """Consequences"" of Trusting Inter-Knot",インターノットを信じた「結果」
 """Conservative"" Opinion",「保守派」の意見
@@ -73,7 +73,7 @@ Phaethon,「パエトーン」
 """Pink Bear""",「ピンクのくまさん」
 """Precise Focus""",「ピント合わせ」
 """Resale of Hollow-Derived Items Is Prohibited""",「ホロウ産物は転売禁止」
-"""Roger""",「ロジャー」
+"""Roger""",ロジャー
 """Sea Wizard""",「海の魔法使い」
 """Silly Game""",「バカげた遊び」
 """Spark""",「K.O.」
@@ -146,7 +146,7 @@ Yidhari Murphy,イドリー・マーフィー
 [Adventure] Sumoboo Type III,[おつかい]オスモウボンプ-Ⅲ型
 Card,カード
 [Adversity] Combat Nutrient Pack,[逆境]サバイバルパック
-[Adversity] Dual Injection Needle,[逆境]ダブルサイド注射器
+[Adversity] Dual Injection Needle,逆境ダブルサイド注射器
 [Adversity] Emblem of Calamity,[逆境]厄災の令牌
 [Adversity] Emergency Partition,[逆境]応急仕切り板
 [Adversity],[逆境]
@@ -155,7 +155,7 @@ Card,カード
 [Adversity] Powerful Dialysis Machine,[逆境]強力透析装置
 [Adversity] Targeted Antibodies,[逆境]指向性抗体
 "[Affinity] ""Such Might""",[適合]「すっごい威風」
-[Affinity] 17-Item Check-Up,[適合]17件のチェック項目
+[Affinity] 17-Item Check-Up,適合17件のチェック項目
 [Affinity] A Soup to Bring Everyone Together,[適合]同じ釜の飯を食う
 [Affinity] Absolutely Flawless,[適合]天衣無縫
 [Affinity] Anomaly Tactical Exchange,[適合]異常戦術交流
@@ -174,7 +174,7 @@ Card,カード
 [Affinity] Full Firepower,[適合]火力全開
 [Affinity] Fully Charged,[適合]充電満タン
 [Affinity] Guarding Tranquility,[適合]守華照寂
-[Affinity] Haiku Swordplay,[適合]俳句剣術
+[Affinity] Haiku Swordplay,適合俳句剣術
 [Affinity] Hammer Sparks,[適合]ハンマースパークス
 [Affinity] Hostile Wake-Over,[適合]敵対的起床
 [Affinity] Lady-Like Charge,[適合]お嬢様突撃
@@ -182,7 +182,7 @@ Card,カード
 [Affinity] Lucky Plum Cookie,[適合]福来たる干し梅
 [Affinity] Moonlit Adventure,[適合]月夜の大冒険
 [Affinity] Muscle Mayhem,[適合]マッスルメイヘム
-[Affinity] My BGM is On,[適合]処刑用BGM、ON
+[Affinity] My BGM is On,適合処刑用BGM、ON
 [Affinity] Nail It Big Time,[適合]ド派手にやっちゃえ
 [Affinity] Nitro-Fuel Feast,[適合]ニトロフューエル・パーティー
 [Affinity] Overlord's Accompaniment,[適合]覇者と共に
@@ -193,7 +193,7 @@ Card,カード
 [Affinity] Power of Hope,[適合]希望の力
 [Affinity],[適合]
 [Affinity] Rupture Tactical Exchange,[適合]命破戦術交流
-Affinity: Silver Heart's Resonance,[適合]シルバーハート・レゾナンス
+Affinity: Silver Heart's Resonance,適合 シルバーハート・レゾナンス
 [Affinity] Solid Companionship,[適合]共に励まし、共に進む
 [Affinity] Stun Tactical Exchange,[適合]撃破戦術交流
 [Affinity] Support Tactical Exchange,[適合]支援戦術交流
@@ -291,7 +291,7 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Bundle Code],[ギフトコード]
 [Bundle Code] Super Fusion Metal Dentures,[ギフトコード]超合金義歯
 [Bundle Code] Ultra Sacred Sword of Radiance,[ギフトコード]ウルトラシャイニングセイバー
-[Bundle Code] VIP Ejection Seat,[ギフトコード]射出式VIP席
+[Bundle Code] VIP Ejection Seat,ギフトコード 射出式VIP席
 [Cinder] Cobalt,「灰燼」-蒼藍
 [Combat] Heart Booster,[逆境]強心剤
 [Combat] Infusion Bag,[逆境]輸液パック
@@ -338,8 +338,8 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Corin] Speed-Cleaning Technique,[カリン]効率的掃除術
 [Corin] Tea Break Time,[カリン]ティータイムへ一直線
 [Craft] A-Fu,[製造]フク
-[Craft] A-Ning,[製造]ネイ
-[Craft] A-Song,[製造]マツ
+[Craft] A-Ning,製造 ネイ
+[Craft] A-Song,製造 マツ
 [Craft] A-Yuan,[製造]マル
 [Craft] Baddieboo Type I,[製造]カチコミボンプ-Ⅰ型
 [Craft] Baddieboo Type II,[製造]カチコミボンプ-Ⅱ型
@@ -363,25 +363,25 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Craft] Spotty,[製造]ブチブチ
 [Craft] Xiaohuan,[製造]ススグ
 [Craft] Xiaoman,[製造]ミチル
-[Craft] Xiaoshuo,[製造]サク
+[Craft] Xiaoshuo,製造 サク
 [Craft] Xiaoying,[製造]ホタル
-[Critical] Collective Emblem,[会心]レゾサイン
-[Critical] Doombringer,[会心]パニックダイナマイト
-[Critical] Duelist,[会心]清算の使者
-[Critical] Gatling Gun,[会心]ガトリング砲
+[Critical] Collective Emblem,会心 レゾサイン
+[Critical] Doombringer,会心 パニックダイナマイト
+[Critical] Duelist,会心 清算の使者
+[Critical] Gatling Gun,会心]ガトリング砲
 [Critical] High-Explosive Grenade,[会心]高性能手榴弾
 [Critical] Laser Scope,[会心]レーザースコープ
 [Critical] Lightweight Buttstock,[会心]軽量銃床
 [Critical] Muzzle Compensator,[会心]コンペンセイター
-[Critical] RPG Shell,[会心]RPGロケット弾
+[Critical] RPG Shell,[会心]RPGロケット弾[Kaishin] RPG Rokettodan
 [Critical],[会心]
-[Critical] Sawn-Off Shotgun,[会心]ソードオフショットガン
-[Critical] Sniper Scope,[会心]ライフルスコープ
-[Critical] Spare Magazine,[会心]予備マガジン
-[Critical] Tactical Goggles,[会心]軍用ゴーグル
-[Critical] Weapon Crate,[会心]武器箱
+[Critical] Sawn-Off Shotgun,[会心]ソードオフショットガン[Kaishin] Sōdoofushottogan
+[Critical] Sniper Scope,[会心]ライフルスコープ[Kaishin] Raifurusukōpu
+[Critical] Spare Magazine,[会心]予備マガジン[Kaishin] Yobimagajin
+[Critical] Tactical Goggles,[会心]軍用ゴーグル[Kaishin] Gunyōgōguru
+[Critical] Weapon Crate,会心 武器箱
 [DON'T] It's haunted again! Stay away from this resort at all costs!,【注意喚起】また怪奇現象！？このリゾートには絶対に来ないで！
-[Dexterity] Advanced Chassis,[機敏]最先端のシャーシ
+[Dexterity] Advanced Chassis,機敏 最先端のシャーシ
 [Dexterity] Efficient Bumper,[機敏]高性能グリルガード
 [Dexterity],[機敏]
 [Dexterity] Protective Safety Belt,[機敏]シートベルト
@@ -427,7 +427,7 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Duel],[決闘]
 [Duel] Rolling Pin,[決闘]のばし棒
 [Duel] Shock Gloves,[決闘]ボクシンググローブ
-[Duel] Tonfa,[決闘]トンファー
+[Duel] Tonfa,決闘 トンファー
 [Ellen] Arctic Hunt,[エレン]薄氷の巡狩
 [Ellen] Blade of Frost,[エレン]フロストバイト
 [Ellen] Blade of Frost: Advanced,[エレン]フロストバイト・進境
@@ -445,13 +445,13 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Energy] Leman,[エネルギー]レマン
 [Energy] Master Tin's Premium,[エネルギー]ティンズコーヒー
 [Energy] Mr. Bright's Probiotics,[エネルギー]ホワイトンの善玉菌
-[Energy] Neon Cola,[エネルギー]ネオンコーラ
+[Energy] Neon Cola,エネルギー ネオンコーラ
 [Energy] Orange God,[エネルギー]オレンジゴッド
 [Energy] Power Up,[エネルギー]エレキスエット
-[Energy] Raging Taurine,[エネルギー]覚醒タウリン
+[Energy] Raging Taurine,エネルギー覚醒タウリン
 [Energy],[エネルギー]
 [Energy] Scarlet Noble: Lemon,[エネルギー]紅男爵・ライム
-[Energy] Scarlet Noble Special,[エネルギー]紅男爵・シークレット
+[Energy] Scarlet Noble Special,エネルギー紅男爵・シークレット
 [Energy] Sharp Smile,[エネルギー]シャープスマイル
 [Energy] TANKA: BBQ Flavor,[エネルギー]タンカー・焼肉味
 [Ether] Broken Chip,[エーテル]破損したチップ
@@ -560,7 +560,7 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Hehe] Surgery tomorrow. Good vibes in need,【えへへ】明日手術、応援求む
 [Help] Can anyone take me inside the Ballet Twins?,【助け求む】バレエツインズに連れて行ってくれないか？
 [Help] Emergency Search!,【助け求む】大至急！人を探しています！
-[Hollow] Aerospace City,[ホロウ]航空宇宙開発区
+[Hollow] Aerospace City,ホロウ航空宇宙開発区
 [Hollow] Aerospace Station,[ホロウ]航空宇宙科学ステーション
 [Hollow] Bangboo Pillow,[ホロウ]ボンプの抱き枕
 [Hollow] Battle Spinner,[ホロウ]バトルコマ
@@ -579,7 +579,7 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Hollow] Former Employee Community,[ホロウ]労働者団地跡地
 [Hollow] Former Research Center,[ホロウ]科学研究院跡地
 [Hollow] Funny Alarm,[ホロウ]オモシロ目覚まし時計
-[Hollow] Giveaway CD,[ホロウ]付録CD
+[Hollow] Giveaway CD,ホロウ付録CD
 [Hollow] Glass Marbles,[ホロウ]ビー玉
 [Hollow] Grace's Bomb Defuser,[ホロウ]グレースのディフューザー
 [Hollow] Herbarium,[ホロウ]植物標本図鑑
@@ -598,7 +598,7 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Hollow] Paper Crane,[ホロウ]千羽鶴
 [Hollow] Piggy bank,[ホロウ]ブタの貯金箱
 [Hollow] Power Hook,[ホロウ]超強力フック
-[Hollow],[ホロウ]
+[Hollow],ホロウ
 [Hollow] Rough Machining Center,[ホロウ]粗加工センター
 [Hollow] Security Scanner,[ホロウ]保安検査探知器
 [Hollow] Spray Paint,[ホロウ]スプレー缶
@@ -619,7 +619,7 @@ Affinity with Your Rhythm,[適合]二人の旋律
 [Ignite] Camping Stove,[着火]カセットコンロ
 [Ignite] Collective Emblem,[着火]レゾサイン
 [Ignite] Deluxe Lighter,[着火]豪奢ライター
-[Ignite] Electric BBQ Grill,[着火]電気BBQグリル
+[Ignite] Electric BBQ Grill,着火]電気BBQグリル
 [Ignite] Electric Torch,[着火]電子トーチ
 [Ignite] Flamethrower,[着火]怒炎放射器
 [Ignite] Kerosene Lamp,[着火]灯油ランプ
@@ -857,7 +857,7 @@ Striped Prawn,シマシマエビ
 [Shock] Collective Emblem,[感電]レゾサイン
 [Shock] Conductive Coil,[感電]導電コイル
 [Shock] Current Gloves,[感電]放電グローブ
-[Shock] EMP Grenade,[感電]EMPグレネード
+[Shock] EMP Grenade,EMPグレネード
 [Shock] Electric Baton,[感電]護身用ブレイクガン
 [Shock] Hand Crank Generator,[感電]放電グローブ
 [Shock] Lightning Rod,[感電]避雷針
@@ -944,21 +944,22 @@ Striped Prawn,シマシマエビ
 [Yuzuha] Tanukis Abound,「柚葉」狸イリュージョン
 "...""Bunless Bae""?",…テンカ野人？
 ...Is that it?,それだけ？
-0WD - Frostedge,「0WD-フロストエッジ」
+0WD - Frostedge,0WD-フロストエッジ
 1-in-4 Selectable W-Engine,音動機4択ギフトボックス
 100% Miss Bunny,100点満点ミス・ラビット
 100% Passion,情熱100%
-Soldier 11,「11号」
+Soldier 11,11号
 141 Convenience Store,雑貨店「141」
 141 Battery Artwork,「141」バッテリーアート
 141 Eco Art Exhibition,「141」エコ・アート展
 141 Exclusive Bazaar,「141」限定販売フェア
 141 Friendship Fair,「141」友情コンタクト
 141 Gas Station,「141」で満タン
+141 Going Green For Everyone,141
 141 Going Green For Everyone,「141」エコ・プロジェクト
 141杂货店,141杂货店
 16mm Film,16ミリフィルム
-"""1WD - City Hunter""",「1WD-シティハンター」
+"""1WD - City Hunter""",1WD-シティハンター
 Dash Attack: 50/50,ダッシュ攻撃：半分こね！
 Dash Attack: 50/50 (Frosted Banner),ダッシュ攻撃：半分こね！（霜染の刃旗）
 5th Work Anniversary Photo,5年勤続記念写真
@@ -985,6 +986,7 @@ A-Ye,夜
 A-Yue,月
 A-Yuet,ツキ
 Angels of Delusion,「妄想エンジェル」
+Angels of Delusion,妄想エンジェル
 ATK,攻撃力
 "A ""Lucky"" Hand",「ちょうどいい」牌
 "A ""Rainy Day"" Without Chase",追いかけなくてもいい「雨」
@@ -1098,8 +1100,7 @@ Abyssal Enforcer,深淵の断罪者
 Abyssal Region,深淵エリア
 Accidental Overachiever,肩書き過多
 Dodge Counter: Accounts Settled,回避反撃：清算
-Ace Bangboo Assistant,"「エース」アシスタントボンプ
-「アケロン」""""Akeron"""""""
+Ace Bangboo Assistant,「エース」アシスタントボンプ
 Acheron,「アケロン」
 Achievements,アチーブメント
 Achievements Completion Rate... 100%,Achievements Completion Rate... 100%
@@ -1157,14 +1158,14 @@ Additional Ability: Parallel Connection,追加能力：並列回路
 Personal Butler,あなた様だけの執事
 Additional Ability: Prelude to Finality,追加能力：終焉の序曲
 Additional Ability: Prophetic Tears,追加能力：予見の涙
-Provisional Security Canine,臨時治安犬
+Provisional Security Canine,臨時治安犬_JP0A
 Radiation Effect,輻射効果
 Refueling,ガソリン注入
 Additional Ability: Rekindled Heart,追加能力：蘇る心
 Replenishing Sugar Levels,糖分補充
 Additional Ability: Rising Storm,追加能力：ライジングストーム
 Additional Ability: Silver Lantern's Gaze,追加能力：銀灯の霊眼
-Additional Ability: Sore Spot,追加能力：痛いところ
+Additional Ability: Sore Spot,追加能力：痛いところ_JP0A
 Street Code,ストリートをうろつく時の心得
 Additional Ability: Surprise Strike,追加能力：思いがけない援軍
 Swiftly Honed,包丁を研ぐ
@@ -1198,6 +1199,8 @@ Adventures in Wonderland,ふしぎの国
 æ%€æ$ Please Help!,縺繝ｼを救え
 Special Attack: Aerial Sweep,特殊スキル：空掠める
 EX Special Attack: Aerial Sweep - Clearout,強化特殊スキル：空を掠める・一掃
+[Hollow] Aerospace City,[ホロウ]航空宇宙開発区
+Affinity: Silver Heart's Resonance,[適合]シルバーハート・レゾナンス
 Afternoon Dessert,午後のデザート
 Afternoon Tea on the Terrace,テラスでアフタヌーンティー
 Aftershock,追加攻撃
@@ -1257,7 +1260,7 @@ Agent Story,エージェント秘話
 Agent Trust,信頼関係
 Agents of Justice! Move Out!,進め！正義の味方
 Aggressive Enemy,好戦的なエネミー
-"Ah, Very Well Then",仕方ないな仕方ないな
+"Ah, Very Well Then",(‍仕方ないな仕方ないなText for Wise/しょうがないなぁしょうがないなぁText for Belle‍)
 Ah-Deh,おとう
 Ahab,アハブ
 Ahn,アンプ
@@ -1292,9 +1295,9 @@ Amazing Howl,クールなウーフ
 Ambition,野心
 Ambush Node,奇襲ノード
 Hollow Thug - Ambusher,ホロウ荒らし・奇襲者
-Amillion,アミリオンAmirion
+Amillion,アミリオン
 Amillion Core,コア・「アミリオン」
-Amy,エミーEmī
+Amy,エミー
 An Attempt at Wealth,富を築く試みについて
 Mole in the Hole (III),ホロウ：インポッシブル(下)
 An Eye for An Eye,目には目を
@@ -1372,6 +1375,7 @@ Aqua Mirage Aquarium,水族館「アクアミラージュ」
 Aquascaping Expert,アクアリウムデザイナー
 Aquatic Delicacy,水中の珍味
 Arbiter Certification Seal,アービター認証バッジ
+Godfinger,"「GOD FINGER」""Goddo Fingā"""
 Arcade Ace,アーケードの達人
 Arche,アーチ
 Archie,チー
@@ -1407,7 +1411,7 @@ Area Codename: 7777,エリアコード：7777
 Area Codename: BB-01,エリアコード：BB-01
 Area Codename: BB-02,エリアコード：BB-02
 Area Codename: C#-01,エリアコード：C#-01
-Area Codename: UC-0015,エリアコード：UC-0015
+Area Codename: UC-0015,エリアコード
 Routine Cleanup,定期掃討
 Argos Hollow,アルゴスホロウ
 Aristocratic Delicacy,貴族の料理
@@ -1473,7 +1477,7 @@ Assist Follow-Up: Falling Petals,支援突撃：帰り花
 Assist Follow-Up: Fatal Shot,支援突撃：急所エイム
 Assist Follow-Up: Featherblade Execution,支援突撃：裁決の羽刃
 Assist Follow-Up: Feral Blazing Maw,支援突撃：獣の食らいつき
-Assist Follow-Up: Gale Sweep,支援突撃：疾風のなぎ払い
+Assist Follow-Up: Gale Sweep,支援突撃：疾風のなぎ払い_JP0A
 Assist Follow-Up: Glacial Onslaught,支援突撃：氷襲の痛撃
 Assist Follow-Up: Hammer Bell,支援突撃：鐘打
 Assist Follow-Up: Harmony of Painted Dreams,支援突撃：ドリームハーモニー
@@ -1529,12 +1533,14 @@ Attack Polarizer Test,強攻・磁極片テスト
 Fighting Style,Fighting Style
 Specialty,特性
 Attack from the Shadows,影に隠れた襲撃
-Attack on Cyberz,アタック・オン・サイバーズ
-"(‍Attendant's Good Night WishAttendant's Good Night WishText for Wise/Good Night, My Lady.Good Night, My Lady.Text for Belle‍)",執事と夜半の挨拶/おやすみなさいませ、お嬢様
+Attack on Cyberz,アタック・オン・サイバーズAtakku On Saibāzu
+"(‍Attendant's Good Night WishAttendant's Good Night WishText for Wise/Good Night, My Lady.Good Night, My Lady.Text for Belle‍)","(‍執事と夜半の挨拶執事と夜半の挨拶Text for Wise/おやすみなさいませ、お嬢様おやすみなさいませ、お嬢様Text for Belle‍)(‍Shitsuji to Yahan no AisatsuShitsuji to Yahan no AisatsuText for Wise/Oyasuminasaimase, OjosamaOyasuminasaimase, OjosamaText for Belle‍)"
 Attendant's Visit,執事が訪問する
 Attendees' Pen Gift Box,会議出席者への万年筆セット
-Attribute,属性
+Attribute,属性Zokusē
+Attribute Anomaly,状態異常Jōtai Ijō
 Stats,ステータス
+Attribute,属性
 Atypical Extroverted Proxy,非典型的外向型プロキシ
 Auction Invitation,オークションの招待状
 Audio Booster Master Copy,音質ブースト原盤
@@ -1618,14 +1624,14 @@ Bangboo 18,18号
 Bangboo Algorithm Module,ボンプ用アルゴリズムモジュール
 Bangboo Assault Squad,ボンプ強襲隊
 Bangboo Bash,ボンプでGO！
-Bangboo Boo-Nappers,キッド・ナンナン・プー
+Bangboo Boo-Nappers,キッド・ナンナン・プーKiddo Nannan Pū
 Dodge Counter: Bangboo Callback,回避反撃：ボンプ回生
 Chain Attack,連携スキル
 Bangboo Commander!,ボンプ大統領！
 BANGBOO CORE,BANGBOO CORE
-Bangboo Diet Plan,ボンプダイエット計画
+Bangboo Diet Plan,ボンプダイエット計画Bonpu daietto Kēkaku
 Bangboo Driver!,ボンプ、運転手になる！
-Bangboo Energy Module Plug-In,ボンプエネルギープラグイン
+Bangboo Energy Module Plug-In,ボンプエネルギープラグインBonpuenerugīpuraguin
 Bangboo Golden Town,黄金ボンプ郷
 Bangboo Golden Town: First Visit,「黄金ボンプ郷」、初訪問
 Bangboo Golden Town: Revisit,「黄金ボンプ郷」、再訪
@@ -1682,7 +1688,7 @@ Basic Attack: Crimson Blade,通常攻撃：赤き刃
 Basic Attack: Crushing Peaks,通常攻撃：山嵐
 Basic Attack: Crushing Strike,通常攻撃：迷いを砕く重撃
 Basic Attack: Cunning Combo,通常攻撃：邪兎の連打
-Basic Attack: Dancing Blades,通常攻撃：ダンシング・ナイフ
+Basic Attack: Dancing Blades,通常攻撃：ダンシング・ナイフ_JP0A
 Basic Attack: Dark Abyss Concerto,通常攻撃：深淵の協奏
 Basic Attack: Dark Abyss Quartet,通常攻撃：深淵四重奏
 Basic Attack: Dead End,通常攻撃：ここは通さない！
@@ -1742,7 +1748,7 @@ Basic Attack: Qingming Eruption,通常攻撃：青溟爆震
 Basic Attack: Rampaging Slash,通常攻撃：ランペイジスラッシュ
 Basic Attack: Razor Wire,通常攻撃：シャープ・ストリング
 "Basic Attack: Rock, Paper, Scissors",通常攻撃：じゃんけんトリック
-Basic Attack: Salchow Jump,通常攻撃：サルコウジャンプ
+Basic Attack: Salchow Jump,通常攻撃：サルコウジャンプ_JP0A
 Saw Teeth Trimming,鋭牙剪定法
 Basic Attack: Shimotsuki,通常攻撃：霜月
 Shoo the Fool,マヌケを追い払え
@@ -2083,7 +2089,7 @@ Chain Attack: Electro Engine,連携スキル：ソレノイドエンジン
 Chain Attack: Eradication Mode,連携スキル：殲滅モード
 Chain Attack: Ether Shellacking,連携スキル：高級エーテルボム
 Chain Attack: Final Judgement,連携スキル：最後の裁き
-Chain Attack: Flowers of Sin,連携スキル：罪悪の華
+Chain Attack: Flowers of Sin,連携スキル：罪悪の華_JP0A
 Chain Attack: Frostbound Oath,連携スキル：寒霜の誓約
 Chain Attack: Fuel-Fed Flame,連携スキル：フューエル・フレイム
 Chain Attack: Go Go Go!,連携スキル：回れ回れ！
@@ -2408,13 +2414,14 @@ Cretan Hollow,クリティホロウ
 Criminal Investigation Special Response Team,特務捜査班
 Crimson Miasma Spike,真紅の晶刺
 Crimson Pierces the Twilight,朱に染まりし青煙
+Crimson Pierces the Twilight,朱に染まりし青煙Ake ni Somarishi Sē'en
 Crimson Silk,深紅の晶糸
 Crisis,危機
 Crisis Frontline,前線危機
 Crisis on the Street Corner,街角の危機
-Crispy Star Biscuit,クリスピースタークッキー
-Crispyboo,サクサクボンプ
-Critical Node,激変ノード
+Crispy Star Biscuit,クリスピースタークッキーKurisupīsutākukkī
+Crispyboo,サクサクボンプSakusakubonpu
+Critical Node,激変ノードGekihen Nōdo
 Cross Blast,十字爆破
 Cross Blast II,十字爆破Ⅱ型
 Crowds Gather in Droves,車輌潤沢
@@ -2463,7 +2470,7 @@ Dampened Ether Explosives,湿ったエーテル爆薬
 Dan,ダン
 Dana,ダーナ
 Dance Trainee,ダンス練習生
-Dance of Death,絶命舞曲Zetsumē Bukyoku
+Dance of Death,絶命舞曲
 Dance of Death Acoustic.,Dance of Death Acoustic.
 Dancing on Strings,操り糸は誘う
 Dancing on the Blade's Edge,刃先の舞
@@ -2478,7 +2485,7 @@ Daniel,ダニエル
 Dante,ダンテ
 Dark Business Rivalry,闇の商業競争
 Dark Side,ダークサイド
-Quick Assist: Dark Thorn,クイック支援：黒い茨
+Quick Assist: Dark Thorn,クイック支援：黒い茨_JP0A
 Dark Tides Rising,渦巻く暗流
 Darkest Hour,晦暗の時間
 Darla,ダーラ
@@ -2594,7 +2601,7 @@ Defensive Assist: Hold the Line,パリィ支援：防衛ライン強化
 Defensive Assist: Intimidating Presence,パリィ支援：見敵甲脱
 Defensive Assist: Iron Bastion,パリィ支援：鉄壁
 Defensive Assist: Iron Wrist,パリィ支援：鉄腕
-Defensive Assist: Last Defense,パリィ支援：最後の防衛線
+Defensive Assist: Last Defense,パリィ支援：最後の防衛線_JP0A
 Defensive Assist: Lone Shadow - Mountain Stand,パリィ支援：孤影・不動
 Defensive Assist: Parry Guard,パリィ支援：カウンターディフェンス
 Defensive Assist: Protective Hammer,パリィ支援：護身槌
@@ -2679,13 +2686,13 @@ Dilapidated House,廃屋
 Dimensional Musketeer,ディメンショナル・スナイパー
 Dimitri,ディミトリ
 Dimwit Disappearing Trick,おバカ消失魔法
-Dina,ディナDina
-Dinah,ディナDina
+Dina,ディナ
+Dinah,ディナ
 Ding-Dong! Maid Service,ピンポン！メイドの訪問です
 Dining Etiquette for Aristocratic Delicacy,貴族料理の食べ方
 Direction of Destiny,運命の方角
 "Director, Take Your Position",監督、スタンバイ！
-Director Ohno,大野監督Ōno Kantoku
+Director Ohno,大野監督
 Disappearing Elevator,消えたエレベーター
 Disconnection,音信不通
 Drive Disc,ドライバディスク
@@ -2733,7 +2740,7 @@ Dodge: Missing Invoice,回避：伝票の穴
 Dodge: Mizutori,回避：水鳥
 Dodge: Nimbus Step,回避：碧空随行
 Dodge: Phantasm,回避：シェード
-Dodge: Phantom,回避：残影
+Dodge: Phantom,回避
 Dodge: Phantom Concealment,回避：魂隠し
 Dodge: Quick Flash,回避：瞬閃
 Dodge: Radiant Blade,回避：耀刃
@@ -2789,8 +2796,8 @@ Dodge Counter: Returning Tusk!,回避反撃：牙を剥く！
 Dodge Counter: Stardust Echo,回避反撃：スターダストエコー
 Dodge Counter: Stoneburst,回避反撃：砂煙舞
 Dodge Counter: Strangling Reversal,回避反撃：反攻の絞扼
-Dodge Counter: Swift Shadow,回避反撃：疾影
-Dodge Counter: Swift Shadow Dance,回避反撃：疾影の舞
+Dodge Counter: Swift Shadow,回避反撃
+Dodge Counter: Swift Shadow Dance,回避反撃
 Dodge Counter: Thunderclap,回避反撃：迅雷
 Dodge Counter: Tiger Seven Forms - Reignited Mountain,回避反撃：悪虎の型・轟々たる離火
 Dodge Counter: Time for Payback~,回避反撃：仕返し、はじめ！
@@ -2800,7 +2807,7 @@ Dog Thiren's Secret Base,とっておきの場所
 Dog Trainers the Four of You!,4人のドッグトレーナー
 Dog of the Underworld,冥妃の愛犬
 Doggy Voucher,ワンワン引換券
-Dollie,ドリーDorī
+Dollie,ドリー
 Don't Blink,快刀、エーテリアスを断つ
 Don't Block My Sunlight,日陰になるからどいて
 Don't Get Greedy,暴食禁止
@@ -2822,43 +2829,7 @@ Ionized - Doppelganger - Bellum,電離体・ドッペルゲンガー・ベルラ
 Ionized - Doppelganger - Jane,電離体・ドッペルゲンガー・ジェーン
 Ionized - Doppelganger - Mors,電離体・ドッペルゲンガー・モルス
 Ionized - Doppelganger - Pulchra,電離体・ドッペルゲンガー・プルクラ
-Doppelganger - The Defector,"ドッペルゲンガー・「背信者」
-ドリアンDorian,ドリアン
-渦巻く疑雲Uzumaku Gi'un,渦巻く疑雲
-ロア先生Roa Sensē,ロア先生
-ドリームレス・ヒーローDorīmuresu Hīrō,ドリームレス・ヒーロー
-ドルDoru,ドル
-メッセージボトルMessēji Botoru,メッセージボトル
-メッセージボトルNO.1Messēji Botoru No.1,メッセージボトルNO.1
-メッセージボトルNO.2Messēji Botoru No.2,メッセージボトルNO.2
-メッセージボトルNO.3Messēji Botoru No.3,メッセージボトルNO.3
-ドリフトテクニックDorifutotekunikku,ドリフトテクニック
-ドリルリグ-レッドシャフトDoriru Rigu - Reddo Shafuto,ドリルリグ-レッドシャフト
-夕焼けへGO！,夕焼けへGO！
-夢縋りYume Sugari,夢縋り
-アリーナメダルArīnamedaru,アリーナメダル
-デュラハンDyurahan,デュラハン
-ダスク・イン・ザ・ワイルドDasuku In Za Wairudo,ダスク・イン・ザ・ワイルド
-無限ループMugen Rūpu,無限ループ
-ディランDiran,ディラン
-強化特殊スキル：V式サンライズ・アッパー-フルストローク,強化特殊スキル：V式サンライズ・アッパー-フルストローク
-エコールームEkōrūmu,エコールーム
-シルバーの復活Shirubā no Fukkatsu,シルバーの復活
-エドガーEdogā,エドガー
-エドモンドEdomondo,エドモンド
-エーゲĒge,エーゲ
-エリナーErinā,エリナー
-電気属性Denki Zokusē,電気属性
-露電幻夢ⅠRoden Genmu I,露電幻夢Ⅰ
-電撃リップグロスDengeki Rippugurosu,電撃リップグロス
-ビリビリボンプBiribiribonpu,ビリビリボンプ
-優美のヴァニティYūbi no Vaniti,優美のヴァニティ
-エレベーターErebētā,エレベーター
-エイファEifa,エイファ
-エリアナEriana,エリアナ
-抹殺リストMassatsu Risuto,抹殺リスト
-エリスErisu,エリス
-「精鋭」アシスタントボンプ""""Seiei"""" Ashisutanto Bonpu"""
+Doppelganger - The Defector,ドッペルゲンガー・「背信者」
 Dorian,ドリアン
 Dormant Tide,眠花暗流
 Double-Sided Armor,棘の鎧（両面）
@@ -3075,7 +3046,7 @@ Ellen's Namecard,エレンの名刺
 Ellen After Class,放課後のエレンさん
 Ellen Scissorhands,シザーテイル
 Ellen Tactical Prism Program,エレンの戦術プリズム構想
-Elmo,エルモErumo
+Elmo,エルモ
 Elongation,のび～～～る
 Elpis' Ultimate Angler,エルピス最強釣り師
 Elpis Ultimate Angler Championship,エルピス最強釣り師決定戦
@@ -3105,7 +3076,7 @@ Encore,舞台よ永遠に
 "Encounter with a ""Big Shot""",「大物」遭遇
 Encrypted Master Tape,暗号化マスターテープ
 End of Unfinished Dreams,消えぬ夢が尽きる頃に
-Ending at Last...?,ついに、エンディングなの…？
+Ending at Last...?,ついに、エンディングなの(‍かかText for Wise‍)…？
 Endless Ascension: Smooth Path,終わりなき登攀・坦途
 Endless Ascension I,終わりなき登攀Ⅰ
 Endless Ascension II,終わりなき登攀Ⅱ
@@ -3327,7 +3298,7 @@ Film Critic,映画評論家
 Film Curator,映画マスター
 Film Screening Time,ビデオ鑑賞
 Final Battle,最後の戦い
-Ultimate: Final Curtain,終結スキル：フィナーレ
+Ultimate: Final Curtain,終結スキル：フィナーレ_JP0A
 Final Dose,最後の一服
 Final Gambit,辿り着く終局
 Final Notice,最後の通告
@@ -3543,6 +3514,7 @@ Goblin,ゴブリン
 Goblin - Energized,ゴブリン・蓄エネ型
 God-Speed Drift,スピード・ドリフト
 God-Speed Drift,高速ドリフト
+Godfinger,「GOD FINGER」
 Godfinger Ultimate Showdown,決戦！「GOD FINGER」の頂
 Going With the Flow,浮き波に身をまかせ
 Gold Calling,黄金招来
@@ -3568,6 +3540,7 @@ Self-Defense,「セイトウボウエイ」
 "Good Evening, New Eridu",こんばんは、新エリー都！
 Good Goods,良い品屋
 Good News! We've Got a Cat!,朗報、猫がお家に来た！
+"(‍Attendant's Good Night WishAttendant's Good Night WishText for Wise/Good Night, My Lady.Good Night, My Lady.Text for Belle‍)",執事と夜半の挨拶
 "Good Night, Sweet Dreams, Good Morning",お休み、いい夢を、そしておはよう
 Good Omen,吉兆
 Good Taste,お気に入り
@@ -3610,7 +3583,7 @@ Greta - Energized,グレーテル・蓄エネ型
 Greta - Overclocked,グレーテル・高周波数型
 Grieving,悼む者
 Grill O'Wisp,燔火の朧夜
-Zoe,ゾーイZōi
+Zoe,ゾーイ
 Ground Quartz,石英砂
 Grumpy Groundhog,怒りっぽいマーモット
 Guard Boars: Spinning Swing!,イノシシ親衛隊：回転打法！
@@ -3681,6 +3654,7 @@ Hans,ハンス
 Hans - Overclocked,ハンス・高周波数型
 Happy Blaze Buddy,友情に火をつけて
 Hard Mineral,固い鉱石
+Soldier 11,「11号」
 Harley,ハーレー
 Harmless Wanderer,無害な放浪者
 Harmonic Pact,響き合う旋律
@@ -3696,17 +3670,17 @@ Have you got any recommendations for Thiren hair products?,シリオンにおす
 Hawara Hollow,ハワーラホロウ
 Hay Fever I,「花粉症I」
 Hay Fever II,「花粉症II」
-Haytor,ハイヨト
-Hazel,ヘーゼル
+Haytor,ハイヨトHaiyoto
+Hazel,ヘーゼルHēzeru
 He is Still Getting Stronger!,戦闘力がまだ上がっていく！
 Head-On,脳天目掛けて
 Head Maid's Coffee Time,メイド長のティータイム
 Health Plan,ヘルシー計画
-Heart of Machines,マシナリー・ハート
+Heart of Machines,マシナリー・ハートMashinarī Hāto
 Heart of Porcelume,輝磁の心臓
 Heartfelt Tears,真心の涙
 Heartfelt Wish,成就する願い
-Heartstring Nocturne,心弦のノクターン
+Heartstring Nocturne,心弦のノクターンShinken no Nokutān
 Heartwarming Game,あったかゲーム
 Heat Haze Amplifier,増幅器「カゲロウ」
 Heating Test,昇温テスト
@@ -3966,21 +3940,22 @@ Investigation Continues,調査続行
 Investigation Merits,調査スコア
 Investigation Point,調査ポイント
 Investigation Specialization,調査特化
-Investigation Zone,探査
+Investigation Zone,探査Tansa
 Investigation Zone Adventures,探査モード、オン！
-Investigator,調査員
+Investigator,調査員Chōsain
 Investigator Training Course,調査員講座
 Invincible,向かうところ敵なし
 Invincible Speed,速さに勝るものなし
 Invisible Assistant,見えない助っ人
-Invitation to Kill,殺意の誘い
+Invitation to Kill,殺意の誘いSatsu'i no Sasoi
 Ionized - Cyrtoidea,電離体・セトリア
+Ionized - Doppelganger,電離体・ドッペルゲンガーDenritai - Dopperugengā
 Ionized - Dullahan,電離体・デュラハン
 Ionized - Farbauti,電離体・ファールバウティ
 Ionized - Nassellaria,電離体・ナセリア
 Ionized - Pugnus,電離体・プグヌス
 Ionized - Thanatos,電離体・タナトス
-Ionized Doppelganger Komano Manato,電離体・ドッペルゲンガー・狛野真斗
+Ionized Doppelganger Komano Manato,電離体
 Iris of the Shore,イチハツは水辺に咲いて
 Iron Law and Outlaws,鉄則と暴挙
 Iron Princess,鋼鉄のお姫様
@@ -4020,11 +3995,13 @@ Jane - Gaming Time,[ジェーン]お楽しみの時間
 Jane - Phantom Armor,[ジェーン]ファントムアーマー
 Jane - Relentless Pursuit,[ジェーン]容赦なき追撃
 Jane - Venomous Edge,[ジェーン]尖った毒牙
+Jane Doe,ジェーン・ドゥJēn Du
 [Jane],[ジェーン]
 Jane Tactical Prism Program,ジェーンの戦術プリズム構想
+Janus Quarter,ヤヌス区Ya'nusu Ku
 Janus Quarter,ヤヌス区
-Jean,琴音
-Jen,ジェン
+Jean,琴音Kotone[!][!]Assumed reading
+Jen,ジェンJen
 Jia'ao,カオ
 Jia Hao,ジャーハオ
 Jiawei,嘉偉
@@ -4278,7 +4255,7 @@ Lost Items From the Old Capital,旧都の落とし物
 Lost Spacecraft,失われた宇宙船
 Lost Supply Box,サプライボックス
 Lost Then Found,失せものは返る
-Resonium,レゾブレムRezoburemu
+Resonium,レゾブレム
 Lost W-Engine,紛失した音動機
 Lotus Lucid Dream,蓮の夢
 Lotus Platform,蓮台
@@ -4440,7 +4417,7 @@ Memory Board,思い出コレクション
 Memory Shard,記憶の欠片
 Memory of Cinder Lake,火の湖の思い出
 Memory of a Melody,思い出のメロディー
-Meow~,ニャ～Nya~
+Meow~,ニャ～
 Mercury Core,コア・「マーキュリー」
 Merfolk,人魚
 Mermaid Legend,人魚の伝説
@@ -4692,7 +4669,7 @@ NEDF! OPEN UP!,NEDF！OPEN UP！
 New Eridu Public Security,新エリー都治安局
 NEPS Lumina Branch,治安局ルミナ分署
 Nachi,ナッチ
-Tsukishiro Yanagi,月城柳Tsukishiro Yanagi
+Tsukishiro Yanagi,月城柳
 Nala,ナラン
 Nap Time,うとうとタイム
 Narrow Escape,九死一生
@@ -4797,7 +4774,7 @@ Not a Nightmare,悪夢じゃなくて
 Not a Quack or a Chirp,向かう所鴨なし
 Not a Single Nap!,居眠りゼロ！
 Not for Sale,買わずに見るだけ
-Notes,メモ
+Notes,メモMemo
 Nothing Can Stop You,阻むものなし
 Nothing Wanted,買いたいものがないお買い物
 Nothing a Boo Can't Dance,ボンプ&ターン
@@ -4831,7 +4808,7 @@ Special Attack: Obstruction Removal,特殊スキル：障害撤去
 Obtain Plug-In,プラグイン獲得
 Ocean Angling,遠海フィッシング
 Off-Duty Mode,退勤モード
-Zhu Yuan,朱鳶Shu En
+Zhu Yuan,朱鳶
 Officer Cui,ツェイ巡査
 Officer Cui Core,コア・「ツェイ巡査」
 Official Dossier from the Hollow Investigative Association,ホロウ調査協会が発行した公文書
@@ -4960,7 +4937,7 @@ Pal,パウル
 Pale Blue Flower of Sorrow,「可憐なる水色の花」
 Pale Wasteland,「虚白なる悪地」
 Palicus,パリクス
-Pan Yinhu,潘引壺Pan Infū
+Pan Yinhu,潘引壺
 Pan Yinhu's Namecard,潘引壺の名刺
 Papago Hollow,パパゴホロウ
 Paper Armor: Impact Mode,段ボールアーマー・衝撃モード
@@ -5029,8 +5006,10 @@ Personal Image Management,イメージ管理
 Personalized Extra Meal!,特別メニュー！
 "Pet ""Tumtum""",「タプちゃん」なでなで
 Peyton,ペイトン
+Phaethon,パエトーン
 Phaethon's Melody,「パエトーン」の歌
 Phaethon's Story,パエトーンの軌跡
+Dodge: Phantom,回避：残影
 Phantom Hunt,シャドウズ・ハント
 Phantom Path,災厄が覆う道
 Phantom Thief Extraordinaire,怪盗の心得
@@ -5130,9 +5109,9 @@ Qi Yu,斉漁
 Priceless Display Cabinet,価値あるショーケース
 Priceless Photo,かけがえのない写真
 Pride and Paranoia,高慢と偏執
-Primal Malice I,「原始の悪意I」
-Primal Malice II,「原始の悪意II」
-Primal Malice III,「原始の悪意III」
+Primal Malice I,原始の悪意I
+Primal Malice II,原始の悪意II
+Primal Malice III,原始の悪意III
 Primordial Black Hole,原初のブラックホール
 Private Jaeger,練達猟兵
 Pro Player,プロゲーマー
@@ -5156,7 +5135,6 @@ Proof of Courage,勇気の証
 Quick Assist: Protective Drill (Burst Mode),クイック支援：サポート・ドリルブレイク（爆発状態）
 Proto Punk,プロト・パンク
 Prototype Seal,原型バッジ
-Provisional Security Canine,臨時治安犬_JP0A
 Proxy,プロキシ
 Reconnected,再接続
 Proxy Business,プロキシ
@@ -5233,6 +5211,7 @@ Quick Assist: Intertwined Stab,クイック支援：オルタナスラスト
 Quick Assist: Lane Change,支援スキル：車線変更
 Quick Assist: Lift Your Gaze to Good Fortune,クイック支援：仰げば招福
 Quick Assist: Lone Shadow - Regroup,クイック支援：孤影・帰陣
+Quick Assist: Lutz Jump,クイック支援
 Quick Assist: Searing Slash,クイック支援：焦痕斬り
 Quick Assist: Shark Sentinel,クイック支援：護衛シャーク
 Quick Assist: Shoulder-To-Shoulder,クイック支援：肩を並べて
@@ -5472,6 +5451,7 @@ Sage in a Barrel,箱の賢者
 Sailfish,ヤリカジキ
 Sailume Bay,泅瓏囲
 Sailume Bay Pursuit,泅瓏を尋ねて
+Basic Attack: Salchow Jump,通常攻撃：サルコウジャンプ
 Sampling Cart: Black,サンプリングカート-黒
 Sampling Cart: White,サンプリングカート-白
 Sampling Cart: Yellow,サンプリングカート-黄
@@ -5639,7 +5619,7 @@ See You in New Eridu,「エリーで会いましょう」
 See you. Mewmew!,またね、にゃんきち！
 Seed's Footprints,「シード」という名の足跡
 Seed's namecard,「シード」の名刺
-Seed Sr.,「ビッグ・シード」
+Seed Sr.,ビッグ・シード
 "Seed Standing Tall, Upon This Earth",大地に立つ「シード」
 Seemed Too Difficult I,エーテル・グルグルⅠ
 Seemed Too Difficult II,エーテル・グルグルⅡ
@@ -5700,11 +5680,12 @@ Shining - Instrumental,Shining - Instrumental
 Shining Hair,きれいな髪のひみつ
 Shining Promise in the Sky of Dawn,暁の空に、輝ける誓い
 Shiyu Defense,式輿防衛戦
+Critical Node,激変ノード
 Critical Node,危局ノード
 Stable Node,安定ノード
 Shiyu Defense: Adaption,式輿防衛・応変
 Shiyu Defense: Waypoint,式輿防衛・アンカーポイント
-Ye Shiyuan,葉釈淵Yō Shakuen[11]
+Ye Shiyuan,葉釈淵
 Shnnnn~,Shnnnn…
 Shock-Like Sensation I,ビリっときたⅠ
 Shock-Like Sensation II,ビリっときたⅡ
@@ -5728,7 +5709,7 @@ Show Time!,幻の幕開け！
 Shower Tips,お風呂のコツ
 Shui,シュイ
 Shun,順くん
-Ye Shunguang,葉瞬光Yō Shunkō[3]
+Ye Shunguang,葉瞬光
 噬魂犬,噬魂犬
 Smart,チーチー
 Sibling Friendship,「仲良し」兄妹
@@ -5822,7 +5803,7 @@ Sophia,ソフィア
 Sora,Sora
 Sordidus,ソルデドゥス
 Sordidus - Energized,ソルデドゥス・蓄エネ型
-Additional Ability: Sore Spot,追加能力：痛いところ_JP0A
+Additional Ability: Sore Spot,追加能力：痛いところ
 Soukaku's Namecard,蒼角の名刺
 Soukaku's Ridu Tour,蒼角のエリーツアー
 Soul Hounds III,ソウルハウンドIII
@@ -5849,7 +5830,6 @@ Spacebar,空白
 Sparkstone,火打石
 Special,特殊
 "Special Attack: ""Windchimes & Oaths""",特殊スキル：風鈴といつかの約束
-Special Attack: Aerial Sweep,特殊スキル：空掠める_JP0A
 Special Attack: Azure Flash,特殊スキル：星雷
 Special Attack: Binding Sunder - First Form,特殊スキル：縛裂式・I型
 Special Attack: Blazing Chamber,特殊スキル：熱血全開
@@ -5878,7 +5858,7 @@ Special Attack: Spectral Flash,特殊スキル：幽閃
 "Special Attack: Spin, Bro!",特殊スキル：回れ、兄弟！
 Special Attack: Stand Still,特殊スキル：大人しくしてろ！
 Sugarcoated Bullet,シュガーボム
-Basic Attack: Sunlit Glory,特殊スキル：昼錦堂
+Basic Attack: Sunlit Glory,特殊スキル：昼錦堂_JP0A
 "Special Attack: Surging Cold, Crushing Pursuit",特殊スキル：寒風・追砕
 Special Attack: Surprise Attack,特殊スキル：奇襲
 Special Attack: Symphony of the Reaper - Storm,特殊スキル：死神協奏曲・嵐
@@ -5974,7 +5954,7 @@ Starrie,星彩
 Stars' Trial,星々の試し
 Stars Above the Wilderness (I),荒野を照らす星々・その一
 Stars Above the Wilderness (II),荒野を照らす星々・その二
-Stars Align,星が交わるとき
+Stars Align,Stars Align星が交わるときStars Align
 Stars of Lyra,スターズ・オブ・リラ
 Stars of Lyra+,スターズ・オブ・リラ
 Starshine Shift,スターシャイン・コンヴァート
@@ -6036,10 +6016,10 @@ Stun,撃破
 Stun Component,撃破キット
 Stun Diaphragm Test,撃破・振動膜テスト
 Stun Drill,撃破演習
-Stunt Coordinator Needed ASAP!,「アクション監督急募！」
+Stunt Coordinator Needed ASAP!,アクション監督急募！
 Sturdy Obstacle,頑固な障害物
 Style Above All!,スタイルは崩さない！
-Styx,「ステュクス」
+Styx,ステュクス
 Subtle Wink,ゆらゆらウインク
 Suggestions From a Bangboo Agent,ボンプ隊員からのアドバイス
 Suggestions From a Battle Maid,戦闘メイドからのアドバイス
@@ -6060,6 +6040,7 @@ Summit of Clouds,雲を眺める山のごとく
 Sumoboo,オスモウボンプ
 Sumoboo Core,コア・「オスモウボンプ」
 Sun,隼
+"""Sunbringer""",サンブリンガー
 Sunflint,サン・フリント
 Sunflower,ヒマワリ
 Sunken Waves,空を打つ波
@@ -6109,6 +6090,8 @@ Sweet and Juicy,スイート＆ジューシー
 Sweetcakes That Never Expire,賞味期限の切れないお団子
 Sweety,紅豆
 Swift Justice,速さは正義
+Dodge Counter: Swift Shadow,回避反撃：疾影
+Dodge Counter: Swift Shadow Dance,回避反撃：疾影の舞
 Swift Steps,身軽な体
 Swift Supply,即時補給
 Swift as the Wind,疾風の如く
@@ -6197,7 +6180,7 @@ The Blasphemous Shall Not Ascend,冒涜者、昇天べからず
 The Bloom of Asphodels,「咲き誇る幽世の花」
 The Brimstone,ブリムストーン
 The Case of Waterfall Soup,調査・麵屋錦鯉
-The Case of a Missing Bangboo,行方プ明
+The Case of a Missing Bangboo,行方不明
 The Case of a Missing Bangboo (I),行方プ明・上
 The Case of a Missing Bangboo (II),行方プ明・中
 The Case of a Missing Bangboo (III),行方プ明・下
@@ -6312,7 +6295,7 @@ The Night Through The Hollow,ホロウをかける夜
 The One and Only Lucia,唯一無二の「リュシア」
 The Only Embrace,たった一度のハグ
 The Opportunist,「投資家」
-The Other Mole,「もう一人のスパイ」
+The Other Mole,もう一人のスパイ
 The Path to Becoming a Hero,The Path to Becoming a Hero
 The Person You Are Calling Is In A Hollow,The Person You Are Calling Is In A Hollow
 The Phantom Thief’s Confession,怪盗の本心
@@ -6355,7 +6338,7 @@ The Taste of Coffee,コーヒーの味わい
 The Temptation of Junk Food,ジャンクフードの誘惑
 "The Tower, Reversed",塔の逆位置
 The Troubles of Ellen the Shark,サメ少女エレンの悩み
-The True Prophecy,真・アンダープロフェシーShin - Andā Purofeshī
+The True Prophecy,真・アンダープロフェシー
 The Trust of the Stars (I),星々の信頼・その一
 The Trust of the Stars (II),星々の信頼・その二
 The Truth,真相
@@ -6499,7 +6482,7 @@ Trial: Route Maintenance,お試し：経路確保
 Trial: Security Patrol,お試し：巡回警備
 Tributary Ferryman,支流の旅人
 Tricks and Wits,小細工と小賢しさ
-Trigger,「トリガー」
+Trigger,トリガー
 Trigger's Namecard,「トリガー」の名刺
 Trigger Switch,触発式スイッチ
 Tropaeolum,キンレンカ
@@ -6544,7 +6527,7 @@ Tyrfing (Infested),ティルヴィング（寄主形態）
 Tyrfing - Energized,ティルヴィング・蓄エネ型
 Tyrone,タイロン
 Tyson,泰三
-Ukinami Yuzuha,浮波柚葉Ukinami Yuzuha
+Ukinami Yuzuha,浮波柚葉
 Ukinami Yuzuha's Namecard,浮波柚葉の名刺
 "Ultimate: ""Fantasian Sonata""",終結スキル：幻想のソナタ
 Ultimate: A Feast Fit for an Emperor!,終結スキル：ごちそうの極み！
@@ -6579,9 +6562,9 @@ Ultimate Calculations,裏の裏まで占う
 Ultimate Karaoke King,超級・カラオケ王
 Ultimate Prank,イタズラの奥義
 Ultimate Summer Challenge!,真夏の最終挑戦！
-Uncanny Valley I,「不気味の谷I」
-Uncanny Valley II,「不気味の谷II」
-Uncanny Valley III,「不気味の谷III」
+Uncanny Valley I,不気味の谷I
+Uncanny Valley II,不気味の谷II
+Uncanny Valley III,不気味の谷III
 Unclaimed Cargo Box,主なきコンテナ
 Uncle A-Fang,方おじさん
 Uncle Hong,ホンおじさん
@@ -6706,7 +6689,6 @@ Visitor from the Beyond,宇宙からの来客
 Vital View,極限視界
 Vivian Banshee,ビビアン・バンシー
 Vivian's Namecard,ビビアンの名刺
-Vivian,ビビ
 Voice of the Once-Spoken,木霊する往時の声
 Void Hunter,虚狩り
 VR,VR
@@ -6732,6 +6714,7 @@ Wasteland Promise,悪地への招待状
 Watch Your Head,頭上注意
 Watch Your Step,足元注意
 Water Lily,スイレン
+Waterfall Soup,麺屋錦鯉
 Waterfall Soup's Special Treatment,錦鯉の特別メニュー
 Way of Clouds,雲嶽の道
 Wayland Murphy,ウェーランド・マーフィー
@@ -6780,7 +6763,7 @@ Companion Database,仲間図鑑
 Dream Investigation,夢境調査
 When Dying Trees Bloom,枯れ木に花を咲かせましょう
 When Opportunities Converge,邂逅の刻
-When Sandwiches Come A Knockin',「サンドイッチがやってくる」
+When Sandwiches Come A Knockin',サンドイッチがやってくる
 When Will We Return to Port?,帰港待ち
 When You Gaze at the Empty Room,空き屋もまたこちらをのぞいている
 When the Crows Perch,When the Crows Perch
@@ -6827,8 +6810,8 @@ Will to Overcome Adversity,逆境に打ち勝つ意志
 William,ウィリアムUiriamu
 Willingly Baited,飛んで火に入る夏の虫
 Willis,ウィリスWirisu
-Wind of the Wild,ウィンド・オブ・ザ・ワイルド
-Windchaser Harumasa,風追いの羽
+Wind of the Wild,ウィンド・オブ・ザ・ワイルドWindo Obu Za Wairudo
+Windchaser Harumasa,風追いの羽Kaze'oi no Hane
 Windguide Talismans,風に揺れる帯
 Winding Roses,トキンバラの葬香
 Window Shopping Isn't Working,勤務外ショッピング
@@ -6836,7 +6819,7 @@ Window Shopping Isn't Working,勤務外ショッピング
 "Windrider, Wavebreaker (II)",波を駆ける・其の二
 "Windrider, Wavebreaker (III)",波を駆ける・其の三
 Windsong Tassels,風にそよぐ朱糸
-Wise,アキラAkira
+Wise,アキラ
 Wish Bottle,夢追うボトル
 Wish Bottle Adrift,夢追うボトル物語
 Wish Bottle Adrift: Journey's Beginning,夢追うボトル物語・夢を追って出発
@@ -6899,7 +6882,7 @@ Yi,乙
 Yixuan,儀玄
 Yidhari's Namecard,イドリーの名刺
 Yidhari Tactical Prism Program,イドリーの戦術プリズム構想
-Yijiang,儀降Īshan
+Yijiang,儀降
 Yixuan's Namecard,儀玄の名刺
 Yixuan Tactical Prism Program,儀玄の戦術プリズム構想
 You're Here?!,来たんだよな？相棒！
@@ -6928,7 +6911,7 @@ Yuzuha Tactical Prism Program,柚葉の戦術プリズム構想
 Z-Merits,零号スコア
 ZENLESS,ZENLESS
 Zandra,ザンドラ
-Zane,ゼーンZēn
+Zane,ゼーン
 Zanshin Herb Case,残心の青籠
 Zenless Limit,ゼンレス限界
 Zenless Limit Gauge,ゼンレス限界測定器
@@ -6944,6 +6927,7 @@ Zhu Yuan's Namecard,朱鳶の名刺
 Zi Xu,子虚
 Zimo,子墨
 Zora,ゾラ
+æ%€æ$ Please Help!,縺繝を救え
 「芝托邦」变奏曲,「芝托邦」变奏曲
 上菜,上菜
 不可触碰,不可触碰
@@ -7008,6 +6992,7 @@ Zora,ゾラ
 胜负已分,胜负已分
 自在一日,自在一日
 荒唐童谣,荒唐童谣
+Wind of the Wild,ウィンド・オブ・ザ・ワイルド
 菓,菓
 虚境脱轨,虚境脱轨
 虚无,虚无
@@ -7032,24 +7017,62 @@ Zora,ゾラ
 黑兔子,黑兔子
 黑暗深处,黑暗深处
 黑色变调夹,黑色变调夹
-Wise,アキラ
-Resonium,レゾブレム
-Zhu Yuan,朱鳶
-Amillion,アミリオン
-Godfinger,「GOD FINGER」
-Tsukishiro Yanagi,月城柳
+[Critical] Sniper Scope,[会心]ライフルスコープ
+[Duel] Tonfa,[決闘]トンファー
+[Critical] Spare Magazine,[会心]予備マガジン
+[Critical] Duelist,[会心]清算の使者
+[Critical] RPG Shell,[会心]RPGロケット弾
+[Critical] Gatling Gun,[会心]ガトリング砲
+[Critical] Doombringer,[会心]パニックダイナマイト
+[Critical] Sawn-Off Shotgun,[会心]ソードオフショットガン
+[Shock] EMP Grenade,[感電]EMPグレネード
+[Energy] Neon Cola,[エネルギー]ネオンコーラ
+[Energy] Scarlet Noble Special,[エネルギー]紅男爵・シークレット
+[Hollow] Giveaway CD,[ホロウ]付録CD
 Defensive Assist: P&mdash;Please allow me!,パリィ支援：わ、私がやります！
 EX Special Attack:&nbsp;Really Heavy,強化特殊スキル：兆、重たい
 Chain Attack:&nbsp;Buckle Up,連携スキル：シートベルト！
-[Info] Proxy Must-Knows: Carrots,【豆知識】プロキシの一般教養&mdash;&mdash;「キャロット」編
-Dollie,ドリー
-Dinah,ディナ
+Attack on Cyberz,アタック・オン・サイバーズ
+Trigger,「トリガー」
+Heart of Machines,マシナリー・ハート
+[Critical] Weapon Crate,[会心]武器箱
+[Critical] Tactical Goggles,[会心]軍用ゴーグル
+[Critical] Collective Emblem,[会心]レゾサイン
+[Energy] Raging Taurine,[エネルギー]覚醒タウリン
+[Hollow],[ホロウ]
+[Affinity] My BGM is On,処刑用BGM、ON
+[Ignite] Electric BBQ Grill,電気BBQグリル
+[Bundle Code] VIP Ejection Seat,射出式VIP席
+Jen,ジェン
+[Post] Super dope Proxy names?,カッコいいプロキシID募集中
+[Info] Proxy Must-Knows: Carrots,プロキシの一般教養&mdash;&mdash;「キャロット」編
 [Post] Vision's shocking scandal exposed &mdash; Perlman is going to jail!,【雑談】ヴィジョンに驚愕の不祥事発覚！パールマン逮捕！
 "[Ad] The CALM&nbsp;urban lightweight vehicle, unassuming yet exceptional!",【広告】カーム シティ軽自動車、サイレントかつエクセレント！
+Uncanny Valley I,「不気味の谷I」
+Primal Malice I,「原始の悪意I」
+Hay Fever I,花粉症I
+Shadow of Horror II,恐怖の影II
+Shadow of Horror III,恐怖の影III
+Shadow of Horror IV,恐怖の影IV
+Shadow of Horror V,恐怖の影V
+Megalophobia II,メガロフォビアII
+Megalophobia III,メガロフォビアIII
+Megalophobia IV,メガロフォビアIV
+Hay Fever II,花粉症II
+Basic Attack: Dancing Blades,通常攻撃：ダンシング・ナイフ
 Quick Assist:&nbsp;Dark Thorn,クイック支援：黒い茨
+Defensive Assist: Last Defense,パリィ支援：最後の防衛線
+Assist Follow-Up: Gale Sweep,支援突撃：疾風のなぎ払い
+Chain Attack: Flowers of Sin,連携スキル：罪悪の華
+Ultimate: Final Curtain,終結スキル：フィナーレ
+Provisional Security Canine,臨時治安犬
+Basic Attack: Sunlit Glory,特殊スキル：昼錦堂
+The Case of a Missing Bangboo,行方プ明
+Bangboo Diet Plan,ボンプダイエット計画
 I&mdash;It's Burning!,燃えてきたぁぁ！
-Amy,エミー
+Seed Sr.,「ビッグ・シード」
 Rally! Uhn-ne uhn-ne!,あつまれ ンナンナの友
+Area Codename: UC-0015,エリアコード：UC-0015
 M&mdash;Maid's Photobook!,メ、メイドさんの写真！
 Old Customer &mdash; New Business,常連さんの新規依頼
 Hati Pack Leader &mdash; Energized,ハティアルファ・蓄エネ型
@@ -7078,23 +7101,34 @@ Dynamic Wallpaper: Zhu Yuan,ライブ壁紙 朱鳶
 [Commission] Professional Hollow Service ★ Signal Repair,【依頼】ホロウ専門サービス★信号修理
 [Commission] Professional Hollow Service ★ Light Repair,【依頼】ホロウ専門サービス★電球修理
 Dynamic Wallpaper: Burnice,ライブ壁紙 バーニス
-Ace Bangboo Assistant,「エース」アシスタントボンプ
+"""Backstream""",「巻き戻し」
+Investigator,調査員
+When Sandwiches Come A Knockin',「サンドイッチがやってくる」
 Dynamic Wallpaper: Lighter,ライブ壁紙 ライト
+[Affinity] 17-Item Check-Up,[適合]17件のチェック項目
 The Kid Ⅰ,幼子Ⅰ
 The Kid Ⅱ,幼子Ⅱ
 The Kid Ⅲ,幼子Ⅲ
+Jean,琴音
+[Affinity] Haiku Swordplay,[適合]俳句剣術
 Dynamic Wallpaper: Miyabi,ライブ壁紙 星見雅
-Meow~,ニャ～
 Chaos Zeta,カオス ζ
-Dance of Death,絶命舞曲
-The True Prophecy,真・アンダープロフェシー
+Windchaser Harumasa,風追いの羽
 William,ウィリアム
+[Dexterity] Advanced Chassis,[機敏]最先端のシャーシ
+[Adversity] Dual Injection Needle,[逆境]ダブルサイド注射器
 Dynamic Wallpaper: Soukaku,ライブ壁紙 蒼角
 Dynamic Wallpaper: Harumasa,ライブ壁紙 浅羽悠真
 Dynamic Wallpaper: Yanagi,ライブ壁紙 月城柳
 Dynamic Wallpaper: Wise,ライブ壁紙 アキラ
 Dynamic Wallpaper: Belle,ライブ壁紙 リン
+Heartstring Nocturne,心弦のノクターン
 Stars of Lyra+,スターズ・オブ・リラ+
+The Other Mole,「もう一人のスパイ」
+"""4WD - Crimson Comet""",「4WD-クリムゾン・コメット」
+"""4WD - Street Legend""",「4WD-ストリート・レジェンド」
+"""4WD - Wasteland Knight""",「4WD-ウェイストランド・ナイト」
+Hazel,ヘーゼル
 Stars Align,Stars Align 星が交わるとき
 Dynamic Wallpaper: Astra Yao,ライブ壁紙 アストラ・アストラ
 Dynamic Wallpaper: Evelyn,ライブ壁紙 イヴリン
@@ -7104,13 +7138,12 @@ Extra stock for Golden Week &mdash; come try in-store!,GW期間は増量中！�
 Parasitic Ethereal Swarm &mdash; Code Name: Geppetto,片利共生型エーテリアス群・コード：ジェペット
 Chapter 1 Intermission,第一章 幕間
 Dynamic Wallpaper: Soldier 0 - Anby,ライブ壁紙 0号・アンビー
-Zoe,ゾーイ
 Dynamic Wallpaper: Trigger,ライブ壁紙 「トリガー」
 Dynamic Wallpaper: Soldier 11,ライブ壁紙 「11号」
 Dynamic Wallpaper: Pulchra,ライブ壁紙 プルクラ
-Yixuan,儀玄
 Chapter 1: Seizing the Sea God's Offerings,第一章 供え物強奪、海神驚く
 Chapter 2: Into the Dragon's Belly to Save the Villagers,第二章 龍の腹入りて、村人を救う
+Invitation to Kill,殺意の誘い
 Chapter 3: Knight's Big Charge Against the Giant,第三章 巨人と対面、騎士の大突進
 Chapter 4: A Noble Rank Bestows Great Renown,第四章 称号受領、名声轟かす
 Chapter 5: Rivals Clash in a Fight to the Death,第五章 現れる好敵手、死闘再び
@@ -7119,41 +7152,49 @@ Chapter 7: Rescuing the Innocent From the Execution Grounds,第七章 刑場破�
 Chapter 8: Finding the Assassin at the Celebration,第八章 祝典の中、奇策を以て刺客を看破
 Chapter 9: Mastery Through the Sound of Waves,第九章 波音に耳をすませ、絶技会得
 Chapter 10: A Single Slash to Repel the Ambush,第十章 四面楚歌、一振りの破陣
-Pan Yinhu,潘引壺
-Ye Shunguang,葉瞬光
+Notes,メモ
+0WD - Frostedge,「0WD-フロストエッジ」
+"""1WD - City Hunter""",「1WD-シティハンター」
 Dynamic Wallpaper: Vivian,ライブ壁紙 ビビアン
-Dina,ディナ
+"""Absolute Trouble""",「いたずら大好き」
+"""Bodhi Has No Tree""",「元から何もなかった」
 Prologue: Intermission,序章 幕間
 Dynamic Wallpaper: Hugo,ライブ壁紙 ヒューゴ
 Guest Florist Business Hours I,特別フラワーデザイナーの営業時間 Ⅰ
 Guest Florist Business Hours II,特別フラワーデザイナーの営業時間 Ⅱ
 Guest Florist Business Hours III,特別フラワーデザイナーの営業時間 Ⅲ
-Yijiang,儀降
 Dynamic Wallpaper: Yixuan,ライブ壁紙 儀玄
 Dynamic Wallpaper: Ju Fufu,ライブ壁紙 橘福福
-Ye Shiyuan,葉釈淵
 Dynamic Wallpaper: Pan Yinhu,ライブ壁紙 潘引壺
-Ukinami Yuzuha,浮波柚葉
+Crispy Star Biscuit,クリスピースタークッキー
+Stunt Coordinator Needed ASAP!,「アクション監督急募！」
+Bangboo Energy Module Plug-In,ボンプエネルギープラグイン
+[Craft] A-Song,[製造]マツ
+[Craft] A-Ning,[製造]ネイ
+"""Change of plans""",「計画通り」じゃない
+[Craft] Xiaoshuo,[製造]サク
+Bangboo Boo-Nappers,キッド・ナンナン・プー
 Orange Fanta Can,「ファンタ オレンジ」ドリンク缶
 Orange Fanta Commemorative Can,「ファンタ オレンジ」記念缶
+Crispyboo,サクサクボンプ
 Dynamic Wallpaper: Yuzuha,ライブ壁紙 柚葉
+"""Roger""",「ロジャー」
 Willis,ウィリス
+Styx,「ステュクス」
 Dynamic Wallpaper: Alice,ライブ壁紙 アリス
 Mr. Z,ミスター Z
 "Ah, Very Well Then",{{MC
 Dynamic Wallpaper: Seed,ライブ壁紙 「シード」
 Ending at Last...?,ついに、エンディングなの
-Doppelganger - The Defector,ドッペルゲンガー・「背信者」
 Lunalux Garrote,輝夜の糸·弦
 Dynamic Wallpaper: Orphie & Magus,ライブ壁紙 オルペウス＆「鬼火」
 Dynamic Wallpaper: Lucia,ライブ壁紙 リュシア
 Dynamic Wallpaper: Manato,ライブ壁紙 真斗
 I'm Porter Boyd,オレの名前は、富東 多良喜だ！
-Zane,ゼーン
+Ionized Doppelganger Komano Manato,電離体・ドッペルゲンガー・狛野真斗
+Haytor,ハイヨト
 Dynamic Wallpaper: Yidhari,ライブ壁紙 イドリー
-Elmo,エルモ
 Dynamic Wallpaper: Dialyn,ライブ壁紙 ダイアリン
-Director Ohno,大野監督
 Warm-Up Exercises,ウォーミングアップ
 State of Flow,気焔万丈
 Rotational Training,ローテーション訓練
@@ -7802,8 +7843,6 @@ Captain,隊長
 commemorative coin,記念コイン
 River of the underworld,冥府の川
 squad,小隊
-Soldier 11,11号
-Trigger,トリガー
 fire blade attack,炎刃攻撃
 Bottled Heat,蓄炎
 low firepower phase,低火力期間
@@ -8066,7 +8105,6 @@ A Story of Sprouting,萌芽論
 Fragrant Tune,芳香律
 Decibel Generation Rate,デシベル値獲得効率
 Ultimate DMG,終結スキルの与ダメージ
-Seed Sr.,ビッグ・シード
 Time to Bloom,開花刻
 Theory of the Heart,有心説
 laser beams,レーザー
@@ -8954,21 +8992,21 @@ Support character,[支援]のメンバー
 30%,+30%
 H.A.N.D.,H.A.N.D.
 !Bug!s,!Bug!
-"""4WD - Crimson Comet""s",「4WD-クリムゾン・コメット」
-"""4WD - Street Legend""s",「4WD-ストリート・レジェンド」
-"""4WD - Wasteland Knight""s",「4WD-ウェイストランド・ナイト」
+"""4WD - Crimson Comet""s",4WD-クリムゾン・コメット
+"""4WD - Street Legend""s",4WD-ストリート・レジェンド
+"""4WD - Wasteland Knight""s",4WD-ウェイストランド・ナイト
 """A Promise Unbroken""s",「バラさないよ」
-"""Absolute Trouble""s",「いたずら大好き」
+"""Absolute Trouble""s",いたずら大好き
 """After the Battle""s",「激闘の果て」
 """An Invitation or Provocation?""s",「お誘い、それとも挑発？」
 """Anonymity""s",「名無し」
 """BFFs""s",「最高の友達」
-"""Backstream""s",「巻き戻し」
+"""Backstream""s",巻き戻し
 """Bangboo, Readys to Work!""",「ボンプ代理出勤！」
 """Black Boxing Gloves""s",「黒いグローブ」
-"""Bodhi Has No Tree""s",「元から何もなかった」
+"""Bodhi Has No Tree""s",元から何もなかった
 """Careful Contemplation""s",「長考」
-"""Changes of plans""",「計画通り」じゃない
+"""Changes of plans""",計画通りじゃない
 """Claritys of Mind""",「雑念を払う」
 """Consequences""s of Trusting Inter-Knot",インターノットを信じた「結果」
 """Conservative"" Opinions",「保守派」の意見
@@ -9018,7 +9056,7 @@ Phaethons,「パエトーン」
 """Phaethon, Oh Phaethon!""s",「パエトーン」よ、「パエトーン」
 """Pink Bear""s",「ピンクのくまさん」
 """Precise Focus""s",「ピント合わせ」
-"""Roger""s",「ロジャー」
+"""Roger""s",ロジャー
 """Sea Wizard""s",「海の魔法使い」
 """Silly Game""s",「バカげた遊び」
 """Spark""s",「K.O.」
@@ -9113,8 +9151,8 @@ Sumoboo Type III,オスモウボンプ-Ⅲ型
 Cards,カード
 [Adversity] Combat Nutrient Packs,[逆境]サバイバルパック
 Combat Nutrient Pack,サバイバルパック
-[Adversity] Dual Injection Needles,[逆境]ダブルサイド注射器
-Dual Injection Needle,ダブルサイド注射器
+[Adversity] Dual Injection Needles,逆境ダブルサイド注射器
+Dual Injection Needle,逆境ダブルサイド注射器
 [Adversity] Emblems of Calamity,[逆境]厄災の令牌
 Emblem of Calamity,厄災の令牌
 [Adversity] Emergency Partitions,[逆境]応急仕切り板
@@ -9130,8 +9168,8 @@ Powerful Dialysis Machine,強力透析装置
 Targeted Antibodies,指向性抗体
 "[Affinity] ""Such Might""s",[適合]「すっごい威風」
 """Such Might""",「すっごい威風」
-[Affinity] 17-Item Check-Ups,[適合]17件のチェック項目
-17-Item Check-Up,17件のチェック項目
+[Affinity] 17-Item Check-Ups,適合17件のチェック項目
+17-Item Check-Up,適合17件のチェック項目
 A Soup to Bring Everyone Together,同じ釜の飯を食う
 [Affinity] Absolutely Flawlesses,[適合]天衣無縫
 Absolutely Flawless,天衣無縫
@@ -9164,8 +9202,8 @@ Full Firepower,火力全開
 Fully Charged,充電満タン
 [Affinity] Guarding Tranquilitys,[適合]守華照寂
 Guarding Tranquility,守華照寂
-[Affinity] Haiku Swordplays,[適合]俳句剣術
-Haiku Swordplay,俳句剣術
+[Affinity] Haiku Swordplays,適合俳句剣術
+Haiku Swordplay,適合俳句剣術
 [Affinity] Hammer Sparkss,[適合]ハンマースパークス
 Hammer Sparks,ハンマースパークス
 [Affinity] Hostile Wake-Overs,[適合]敵対的起床
@@ -9179,7 +9217,7 @@ Lucky Plum Cookie,福来たる干し梅
 Moonlit Adventure,月夜の大冒険
 [Affinity] Muscle Mayhems,[適合]マッスルメイヘム
 Muscle Mayhem,マッスルメイヘム
-My BGM is On,処刑用BGM、ON
+My BGM is On,適合処刑用BGM、ON
 Nail It Big Time,ド派手にやっちゃえ
 [Affinity] Nitro-Fuel Feasts,[適合]ニトロフューエル・パーティー
 Nitro-Fuel Feast,ニトロフューエル・パーティー
@@ -9198,8 +9236,8 @@ Power of Hope,希望の力
 [Affinity]s,[適合]
 [Affinity] Rupture Tactical Exchanges,[適合]命破戦術交流
 Rupture Tactical Exchange,命破戦術交流
-Affinity: Silver Heart's Resonances,[適合]シルバーハート・レゾナンス
-Silver Heart's Resonance,シルバーハート・レゾナンス
+Affinity: Silver Heart's Resonances,適合 シルバーハート・レゾナンス
+Silver Heart's Resonance,適合 シルバーハート・レゾナンス
 [Affinity] Solid Companionships,[適合]共に励まし、共に進む
 Solid Companionship,共に励まし、共に進む
 [Affinity] Stun Tactical Exchanges,[適合]撃破戦術交流
@@ -9349,7 +9387,7 @@ Mask No.10,10番仮面
 [Bundle Code]s,[ギフトコード]
 Super Fusion Metal Dentures,超合金義歯
 Ultra Sacred Sword of Radiance,ウルトラシャイニングセイバー
-VIP Ejection Seat,射出式VIP席
+VIP Ejection Seat,ギフトコード 射出式VIP席
 [Cinder] Cobalts,「灰燼」-蒼藍
 Cobalt,「灰燼」-蒼藍
 [Combat] Heart Boosters,[逆境]強心剤
@@ -9418,10 +9456,10 @@ Speed-Cleaning Technique,効率的掃除術
 Tea Break Time,ティータイムへ一直線
 [Craft] A-Fus,[製造]フク
 A-Fu,フク
-[Craft] A-Nings,[製造]ネイ
-A-Ning,ネイ
-[Craft] A-Songs,[製造]マツ
-A-Song,マツ
+[Craft] A-Nings,製造 ネイ
+A-Ning,製造 ネイ
+[Craft] A-Songs,製造 マツ
+A-Song,製造 マツ
 [Craft] A-Yuans,[製造]マル
 A-Yuan,マル
 [Craft] Baddieboo Type Is,[製造]カチコミボンプ-Ⅰ型
@@ -9464,17 +9502,18 @@ Spotty,ブチブチ
 Xiaohuan,ススグ
 [Craft] Xiaomen,[製造]ミチル
 Xiaoman,ミチル
-[Craft] Xiaoshuos,[製造]サク
-Xiaoshuo,サク
+[Craft] Xiaoshuos,製造 サク
+Xiaoshuo,製造 サク
 [Craft] Xiaoyings,[製造]ホタル
 Xiaoying,ホタル
-[Critical] Collective Emblems,[会心]レゾサイン
-[Critical] Doombringers,[会心]パニックダイナマイト
-Doombringer,パニックダイナマイト
-[Critical] Duelists,[会心]清算の使者
-Duelist,清算の使者
-[Critical] Gatling Guns,[会心]ガトリング砲
-Gatling Gun,ガトリング砲
+[Critical] Collective Emblems,会心 レゾサイン
+Collective Emblem,会心 レゾサイン
+[Critical] Doombringers,会心 パニックダイナマイト
+Doombringer,会心 パニックダイナマイト
+[Critical] Duelists,会心 清算の使者
+Duelist,会心 清算の使者
+[Critical] Gatling Guns,会心]ガトリング砲
+Gatling Gun,会心]ガトリング砲
 [Critical] High-Explosive Grenades,[会心]高性能手榴弾
 High-Explosive Grenade,高性能手榴弾
 [Critical] Laser Scopes,[会心]レーザースコープ
@@ -9483,21 +9522,21 @@ Laser Scope,レーザースコープ
 Lightweight Buttstock,軽量銃床
 [Critical] Muzzle Compensators,[会心]コンペンセイター
 Muzzle Compensator,コンペンセイター
-[Critical] RPG Shells,[会心]RPGロケット弾
-RPG Shell,RPGロケット弾
+[Critical] RPG Shells,[会心]RPGロケット弾[Kaishin] RPG Rokettodan
+RPG Shell,RPGロケット弾[Kaishin] RPG Rokettodan
 [Critical]s,[会心]
-[Critical] Sawn-Off Shotguns,[会心]ソードオフショットガン
-Sawn-Off Shotgun,ソードオフショットガン
-[Critical] Sniper Scopes,[会心]ライフルスコープ
-Sniper Scope,ライフルスコープ
-[Critical] Spare Magazines,[会心]予備マガジン
-Spare Magazine,予備マガジン
-[Critical] Tactical Goggleses,[会心]軍用ゴーグル
-Tactical Goggles,軍用ゴーグル
-[Critical] Weapon Crates,[会心]武器箱
-Weapon Crate,武器箱
+[Critical] Sawn-Off Shotguns,[会心]ソードオフショットガン[Kaishin] Sōdoofushottogan
+Sawn-Off Shotgun,ソードオフショットガン[Kaishin] Sōdoofushottogan
+[Critical] Sniper Scopes,[会心]ライフルスコープ[Kaishin] Raifurusukōpu
+Sniper Scope,ライフルスコープ[Kaishin] Raifurusukōpu
+[Critical] Spare Magazines,[会心]予備マガジン[Kaishin] Yobimagajin
+Spare Magazine,予備マガジン[Kaishin] Yobimagajin
+[Critical] Tactical Goggleses,[会心]軍用ゴーグル[Kaishin] Gunyōgōguru
+Tactical Goggles,軍用ゴーグル[Kaishin] Gunyōgōguru
+[Critical] Weapon Crates,会心 武器箱
+Weapon Crate,会心 武器箱
 It's haunted again! Stay away from this resort at all costs!,【注意喚起】また怪奇現象！？このリゾートには絶対に来ないで！
-Advanced Chassis,最先端のシャーシ
+Advanced Chassis,機敏 最先端のシャーシ
 [Dexterity] Efficient Bumpers,[機敏]高性能グリルガード
 Efficient Bumper,高性能グリルガード
 [Dexterity]s,[機敏]
@@ -9580,8 +9619,8 @@ Nunchucks,ヌンチャク
 Rolling Pin,のばし棒
 [Duel] Shock Gloveses,[決闘]ボクシンググローブ
 Shock Gloves,ボクシンググローブ
-[Duel] Tonfas,[決闘]トンファー
-Tonfa,トンファー
+[Duel] Tonfas,決闘 トンファー
+Tonfa,決闘 トンファー
 [Ellen] Arctic Hunts,[エレン]薄氷の巡狩
 Arctic Hunt,薄氷の巡狩
 [Ellen] Blades of Frost,[エレン]フロストバイト
@@ -9613,19 +9652,19 @@ Leman,レマン
 Master Tin's Premium,ティンズコーヒー
 [Energy] Mr. Bright's Probioticss,[エネルギー]ホワイトンの善玉菌
 Mr. Bright's Probiotics,ホワイトンの善玉菌
-[Energy] Neon Colas,[エネルギー]ネオンコーラ
-Neon Cola,ネオンコーラ
+[Energy] Neon Colas,エネルギー ネオンコーラ
+Neon Cola,エネルギー ネオンコーラ
 [Energy] Orange Gods,[エネルギー]オレンジゴッド
 Orange God,オレンジゴッド
 [Energy] Power Ups,[エネルギー]エレキスエット
 Power Up,エレキスエット
-[Energy] Raging Taurines,[エネルギー]覚醒タウリン
-Raging Taurine,覚醒タウリン
+[Energy] Raging Taurines,エネルギー覚醒タウリン
+Raging Taurine,エネルギー覚醒タウリン
 [Energy]s,[エネルギー]
 [Energy] Scarlet Noble: Lemons,[エネルギー]紅男爵・ライム
 Lemon,紅男爵・ライム
-[Energy] Scarlet Noble Specials,[エネルギー]紅男爵・シークレット
-Scarlet Noble Special,紅男爵・シークレット
+[Energy] Scarlet Noble Specials,エネルギー紅男爵・シークレット
+Scarlet Noble Special,エネルギー紅男爵・シークレット
 [Energy] Sharp Smiles,[エネルギー]シャープスマイル
 Sharp Smile,シャープスマイル
 [Energy] TANKA: BBQ Flavors,[エネルギー]タンカー・焼肉味
@@ -9821,8 +9860,8 @@ Surgery tomorrow. Good vibes in need,【えへへ】明日手術、応援求む
 Can anyone take me inside the Ballet Twins?,【助け求む】バレエツインズに連れて行ってくれないか？
 [Help] Emergency Search!s,【助け求む】大至急！人を探しています！
 Emergency Search!,【助け求む】大至急！人を探しています！
-[Hollow] Aerospace Citys,[ホロウ]航空宇宙開発区
-Aerospace City,航空宇宙開発区
+[Hollow] Aerospace Citys,ホロウ航空宇宙開発区
+Aerospace City,ホロウ航空宇宙開発区
 [Hollow] Aerospace Stations,[ホロウ]航空宇宙科学ステーション
 Aerospace Station,航空宇宙科学ステーション
 [Hollow] Bangboo Pillows,[ホロウ]ボンプの抱き枕
@@ -9859,8 +9898,8 @@ Former Employee Community,労働者団地跡地
 Former Research Center,科学研究院跡地
 [Hollow] Funny Alarms,[ホロウ]オモシロ目覚まし時計
 Funny Alarm,オモシロ目覚まし時計
-[Hollow] Giveaway CDS,[ホロウ]付録CD
-Giveaway CD,付録CD
+[Hollow] Giveaway CDS,ホロウ付録CD
+Giveaway CD,ホロウ付録CD
 [Hollow] Glass Marbleses,[ホロウ]ビー玉
 Glass Marbles,ビー玉
 [Hollow] Grace's Bomb Defusers,[ホロウ]グレースのディフューザー
@@ -9895,7 +9934,7 @@ Paper Crane,千羽鶴
 Piggy bank,ブタの貯金箱
 [Hollow] Power Hooks,[ホロウ]超強力フック
 Power Hook,超強力フック
-[Hollow]s,[ホロウ]
+[Hollow]s,ホロウ
 [Hollow] Rough Machining Centers,[ホロウ]粗加工センター
 Rough Machining Center,粗加工センター
 [Hollow] Security Scanners,[ホロウ]保安検査探知器
@@ -9931,8 +9970,8 @@ Camping Stove,カセットコンロ
 [Ignite] Collective Emblems,[着火]レゾサイン
 [Ignite] Deluxe Lighters,[着火]豪奢ライター
 Deluxe Lighter,豪奢ライター
-[Ignite] Electric BBQ Grills,[着火]電気BBQグリル
-Electric BBQ Grill,電気BBQグリル
+[Ignite] Electric BBQ Grills,着火]電気BBQグリル
+Electric BBQ Grill,着火]電気BBQグリル
 [Ignite] Electric Torches,[着火]電子トーチ
 Electric Torch,電子トーチ
 [Ignite] Flamethrowers,[着火]怒炎放射器
@@ -10263,7 +10302,7 @@ Amplification Bracelet,放電グローブ
 Conductive Coil,導電コイル
 [Shock] Current Gloveses,[感電]放電グローブ
 Current Gloves,放電グローブ
-[Shock] EMP Grenades,[感電]EMPグレネード
+[Shock] EMP Grenades,EMPグレネード
 EMP Grenade,EMPグレネード
 [Shock] Electric Batons,[感電]護身用ブレイクガン
 Electric Baton,護身用ブレイクガン
@@ -10411,11 +10450,11 @@ Shaman's Charm,「柚葉」霊巫のお守り
 Tanukis Abound,「柚葉」狸イリュージョン
 "...""Bunless Bae""?s",…テンカ野人？
 ...Is that it?s,それだけ？
-0WD - Frostedges,「0WD-フロストエッジ」
+0WD - Frostedges,0WD-フロストエッジ
 1s-in-4 Selectable w engine,音動機4択ギフトボックス
 100% Miss Bunnys,100点満点ミス・ラビット
 100% Passions,情熱100%
-Soldier 11S,「11号」
+Soldier 11S,11号
 141 Convenience Stores,雑貨店「141」
 141 Battery Artworks,「141」バッテリーアート
 141 Eco Art Exhibitions,「141」エコ・アート展
@@ -10424,7 +10463,7 @@ Soldier 11S,「11号」
 141 Gas Stations,「141」で満タン
 141杂货店S,141杂货店
 16mm Films,16ミリフィルム
-"""1WD - City Hunter""s",「1WD-シティハンター」
+"""1WD - City Hunter""s",1WD-シティハンター
 Dash Attack: 50/50S,ダッシュ攻撃：半分こね！
 50/50 (Frosted Banner),半分こね！（霜染の刃旗）
 5th Work Anniversary Photos,5年勤続記念写真
@@ -10451,6 +10490,7 @@ A-Yes,夜
 A-Yues,月
 A-Yuets,ツキ
 Angelss of Delusion,「妄想エンジェル」
+Angelss of Delusion,妄想エンジェル
 ATKS,攻撃力
 "A ""Lucky"" Hands",「ちょうどいい」牌
 A Bond Returneds,返される絆
@@ -10515,8 +10555,7 @@ Abyssal Enforcers,深淵の断罪者
 Abyssal Regions,深淵エリア
 Accidental Overachievers,肩書き過多
 Dodge Counter: Accounts Settleds,回避反撃：清算
-Ace Bangboo Assistants,"「エース」アシスタントボンプ
-「アケロン」""""Akeron"""""""
+Ace Bangboo Assistants,「エース」アシスタントボンプ
 Acherons,「アケロン」
 Achievementss,アチーブメント
 Achievements Completion Rate... 100%S,Achievements Completion Rate... 100%
@@ -10568,14 +10607,14 @@ Overpower All Oddss,剛よく柔を断つ
 Additional Ability: Parallel Connections,追加能力：並列回路
 Personal Butlers,あなた様だけの執事
 Additional Ability: Prophetic Tearss,追加能力：予見の涙
-Provisional Security Canines,臨時治安犬
+Provisional Security Canines,臨時治安犬_JP0A
 Radiation Effects,輻射効果
 Refuelings,ガソリン注入
 Additional Ability: Rekindled Hearts,追加能力：蘇る心
 Replenishing Sugar Levelss,糖分補充
 Additional Ability: Rising Storms,追加能力：ライジングストーム
-Additional Ability: Sore Spots,追加能力：痛いところ
-Sore Spot,痛いところ
+Additional Ability: Sore Spots,追加能力：痛いところ_JP0A
+Sore Spot,痛いところ_JP0A
 Street Codes,ストリートをうろつく時の心得
 Additional Ability: Surprise Strikes,追加能力：思いがけない援軍
 Swiftly Honeds,包丁を研ぐ
@@ -10609,6 +10648,10 @@ Adventureses in Wonderland,ふしぎの国
 Special Attack: Aerial Sweeps,特殊スキル：空掠める
 Aerial Sweep,空掠める
 Aerial Sweep - Clearout,空を掠める・一掃
+[Hollow] Aerospace Citys,[ホロウ]航空宇宙開発区
+Aerospace City,航空宇宙開発区
+Affinity: Silver Heart's Resonances,[適合]シルバーハート・レゾナンス
+Silver Heart's Resonance,シルバーハート・レゾナンス
 Afternoon Desserts,午後のデザート
 Aftershocks,追加攻撃
 Agarwoods,沈香
@@ -10707,7 +10750,7 @@ Agent Outfits,コスチューム
 Agent Storys,エージェント秘話
 Agent Trusts,信頼関係
 Aggressive Enemys,好戦的なエネミー
-"Ah, Very Well Thens",仕方ないな仕方ないな
+"Ah, Very Well Thens",(‍仕方ないな仕方ないなText for Wise/しょうがないなぁしょうがないなぁText for Belle‍)
 Ah-Dehs,おとう
 Ahabs,アハブ
 Ahns,アンプ
@@ -10739,9 +10782,9 @@ Amazing Howls,クールなウーフ
 Ambitions,野心
 Ambush Nodes,奇襲ノード
 Hollow Thug - Ambushers,ホロウ荒らし・奇襲者
-Amillions,アミリオンAmirion
+Amillions,アミリオン
 Amillion Cores,コア・「アミリオン」
-Amys,エミーEmī
+Amys,エミー
 An Attempts at Wealth,富を築く試みについて
 Mole in the Hole (III),インポッシブル(下)
 An Idol's Idols,アイドルのアイドル
@@ -10807,6 +10850,7 @@ Aqua Mirage Aquariums,水族館「アクアミラージュ」
 Aquascaping Experts,アクアリウムデザイナー
 Aquatic Delicacys,水中の珍味
 Arbiter Certification Seals,アービター認証バッジ
+Godfingers,"「GOD FINGER」""Goddo Fingā"""
 Arcade Aces,アーケードの達人
 Arches,アーチ
 Archies,チー
@@ -10867,8 +10911,8 @@ Area Codename: BB-02S,エリアコード：BB-02
 BB-02,BB-02
 Area Codename: C#-01S,エリアコード：C#-01
 C#-01,C#-01
-Area Codename: UC-0015S,エリアコード：UC-0015
-UC-0015,UC-0015
+Area Codename: UC-0015S,エリアコード
+UC-0015,エリアコード
 Routine Cleanups,定期掃討
 Argos Hollows,アルゴスホロウ
 Aristocratic Delicacys,貴族の料理
@@ -10928,8 +10972,8 @@ Assist Follow-Up: Falling Petalss,支援突撃：帰り花
 Falling Petals,帰り花
 Assist Follow-Up: Fatal Shots,支援突撃：急所エイム
 Assist Follow-Up: Featherblade Executions,支援突撃：裁決の羽刃
-Assist Follow-Up: Gale Sweeps,支援突撃：疾風のなぎ払い
-Gale Sweep,疾風のなぎ払い
+Assist Follow-Up: Gale Sweeps,支援突撃：疾風のなぎ払い_JP0A
+Gale Sweep,疾風のなぎ払い_JP0A
 Assist Follow-Up: Glacial Onslaughts,支援突撃：氷襲の痛撃
 Assist Follow-Up: Hammer Bells,支援突撃：鐘打
 Hammer Bell,鐘打
@@ -10982,11 +11026,13 @@ Attack Polarizer Tests,強攻・磁極片テスト
 Fighting Styles,Fighting Style
 Specialtys,特性
 Attacks from the Shadows,影に隠れた襲撃
-Attacks on Cyberz,アタック・オン・サイバーズ
+Attacks on Cyberz,アタック・オン・サイバーズAtakku On Saibāzu
 Attendant's Visits,執事が訪問する
 Attendees' Pen Gift Boxes,会議出席者への万年筆セット
-Attributes,属性
+Attributes,属性Zokusē
+Attribute Anomalys,状態異常Jōtai Ijō
 Statss,ステータス
+Attributes,属性
 Atypical Extroverted Proxys,非典型的外向型プロキシ
 Auction Invitations,オークションの招待状
 Audio Booster Master Copys,音質ブースト原盤
@@ -11053,14 +11099,14 @@ Bangboo 18S,18号
 Bangboo Algorithm Modules,ボンプ用アルゴリズムモジュール
 Bangboo Assault Squads,ボンプ強襲隊
 Bangboo Bashes,ボンプでGO！
-Bangboo Boo-Napperss,キッド・ナンナン・プー
+Bangboo Boo-Napperss,キッド・ナンナン・プーKiddo Nannan Pū
 Dodge Counter: Bangboo Callbacks,回避反撃：ボンプ回生
 Chain Attacks,連携スキル
 Bangboo Commander!s,ボンプ大統領！
 BANGBOO CORES,BANGBOO CORE
-Bangboo Diet Plans,ボンプダイエット計画
+Bangboo Diet Plans,ボンプダイエット計画Bonpu daietto Kēkaku
 Bangboo Driver!s,ボンプ、運転手になる！
-Bangboo Energy Module Plug-Ins,ボンプエネルギープラグイン
+Bangboo Energy Module Plug-Ins,ボンプエネルギープラグインBonpuenerugīpuraguin
 Bangboo Golden Towns,黄金ボンプ郷
 First Visit,「黄金ボンプ郷」、初訪問
 Bangboo Golden Town: Revisits,「黄金ボンプ郷」、再訪
@@ -11120,7 +11166,8 @@ Basic Attack: Crushing Strikes,通常攻撃：迷いを砕く重撃
 Crushing Strike,迷いを砕く重撃
 Basic Attack: Cunning Comboes,通常攻撃：邪兎の連打
 Cunning Combo,邪兎の連打
-Basic Attack: Dancing Bladeses,通常攻撃：ダンシング・ナイフ
+Basic Attack: Dancing Bladeses,通常攻撃：ダンシング・ナイフ_JP0A
+Dancing Blades,ダンシング・ナイフ_JP0A
 Basic Attack: Dead Ends,通常攻撃：ここは通さない！
 Basic Attack: Debt Reconciliations,通常攻撃：帳尻合わせ
 Direct Flame Blend,フレイム・ビルド
@@ -11186,8 +11233,8 @@ Rampaging Slash,ランペイジスラッシュ
 Basic Attack: Razor Wires,通常攻撃：シャープ・ストリング
 Razor Wire,シャープ・ストリング
 "Rock, Paper, Scissors",じゃんけんトリック
-Basic Attack: Salchow Jumps,通常攻撃：サルコウジャンプ
-Salchow Jump,サルコウジャンプ
+Basic Attack: Salchow Jumps,通常攻撃：サルコウジャンプ_JP0A
+Salchow Jump,サルコウジャンプ_JP0A
 Saw Teeth Trimmings,鋭牙剪定法
 Basic Attack: Shimotsukis,通常攻撃：霜月
 Shimotsuki,霜月
@@ -11502,6 +11549,7 @@ Chain Attack: Electro Engines,連携スキル：ソレノイドエンジン
 Chain Attack: Eradication Modes,連携スキル：殲滅モード
 Chain Attack: Ether Shellackings,連携スキル：高級エーテルボム
 Chain Attack: Final Judgements,連携スキル：最後の裁き
+Flowers of Sin,罪悪の華_JP0A
 Chain Attack: Frostbound Oaths,連携スキル：寒霜の誓約
 Chain Attack: Fuel-Fed Flames,連携スキル：フューエル・フレイム
 Chain Attack: Grand Slam!s,連携スキル：満塁ホームラン！
@@ -11811,12 +11859,13 @@ Crescent Grunters,ハナサキウオ
 Cretan Hollows,クリティホロウ
 Crimson Miasma Spikes,真紅の晶刺
 Crimson Pierces the Twilights,朱に染まりし青煙
+Crimson Pierces the Twilights,朱に染まりし青煙Ake ni Somarishi Sē'en
 Crimson Silks,深紅の晶糸
 Crises,危機
 Crisis Frontlines,前線危機
-Crispy Star Biscuits,クリスピースタークッキー
-Crispyboos,サクサクボンプ
-Critical Nodes,激変ノード
+Crispy Star Biscuits,クリスピースタークッキーKurisupīsutākukkī
+Crispyboos,サクサクボンプSakusakubonpu
+Critical Nodes,激変ノードGekihen Nōdo
 Cross Blasts,十字爆破
 Cross Blast IIS,十字爆破Ⅱ型
 Crowds Gathers in Droves,車輌潤沢
@@ -11863,7 +11912,7 @@ Dampened Ether Explosiveses,湿ったエーテル爆薬
 Dans,ダン
 Danas,ダーナ
 Dance Trainees,ダンス練習生
-Dances of Death,絶命舞曲Zetsumē Bukyoku
+Dances of Death,絶命舞曲
 Dances of Death Acoustic.,Dance of Death Acoustic.
 Dancings on Strings,操り糸は誘う
 Dancings with the Heatwave,熱波と踊ろう
@@ -11877,8 +11926,8 @@ Daniels,ダニエル
 Dantes,ダンテ
 Dark Business Rivalrys,闇の商業競争
 Dark Sides,ダークサイド
-Quick Assist: Dark Thorns,クイック支援：黒い茨
-Dark Thorn,黒い茨
+Quick Assist: Dark Thorns,クイック支援：黒い茨_JP0A
+Dark Thorn,黒い茨_JP0A
 Dark Tides Risings,渦巻く暗流
 Darkest Hours,晦暗の時間
 Darlas,ダーラ
@@ -12006,8 +12055,8 @@ Defensive Assist: Intimidating Presences,パリィ支援：見敵甲脱
 Defensive Assist: Iron Bastions,パリィ支援：鉄壁
 Iron Bastion,鉄壁
 Defensive Assist: Iron Wrists,パリィ支援：鉄腕
-Defensive Assist: Last Defenses,パリィ支援：最後の防衛線
-Last Defense,最後の防衛線
+Defensive Assist: Last Defenses,パリィ支援：最後の防衛線_JP0A
+Last Defense,最後の防衛線_JP0A
 Defensive Assist: Parry Guards,パリィ支援：カウンターディフェンス
 Defensive Assist: Protective Hammers,パリィ支援：護身槌
 Protective Hammer,護身槌
@@ -12090,12 +12139,12 @@ Dilapidated Houses,廃屋
 Dimensional Musketeers,ディメンショナル・スナイパー
 Dimitris,ディミトリ
 Dimwit Disappearing Tricks,おバカ消失魔法
-Dinas,ディナDina
-Dinahs,ディナDina
+Dinas,ディナ
+Dinahs,ディナ
 Ding-Dong! Maid Services,ピンポン！メイドの訪問です
 Directions of Destiny,運命の方角
 "Director, Take Your Positions",監督、スタンバイ！
-Director Ohnoes,大野監督Ōno Kantoku
+Director Ohnoes,大野監督
 Disappearing Elevators,消えたエレベーター
 Disconnections,音信不通
 Drive Discs,ドライバディスク
@@ -12153,8 +12202,8 @@ Dodge: Mizutoris,回避：水鳥
 Mizutori,水鳥
 Dodge: Nimbus Steps,回避：碧空随行
 Dodge: Phantasms,回避：シェード
-Dodge: Phantoms,回避：残影
-Phantom,残影
+Dodge: Phantoms,回避
+Phantom,回避
 Dodge: Phantom Concealments,回避：魂隠し
 Phantom Concealment,魂隠し
 Dodge: Quick Flashes,回避：瞬閃
@@ -12226,9 +12275,9 @@ Dodge Counter: Stonebursts,回避反撃：砂煙舞
 Stoneburst,砂煙舞
 Dodge Counter: Strangling Reversals,回避反撃：反攻の絞扼
 Strangling Reversal,反攻の絞扼
-Dodge Counter: Swift Shadows,回避反撃：疾影
-Swift Shadow,疾影
-Swift Shadow Dance,疾影の舞
+Dodge Counter: Swift Shadows,回避反撃
+Swift Shadow,回避反撃
+Swift Shadow Dance,回避反撃
 Dodge Counter: Thunderclaps,回避反撃：迅雷
 Tiger Seven Forms - Reignited Mountain,悪虎の型・轟々たる離火
 Dodge Counter: Violation Penaltys,回避反撃：違反罰則
@@ -12237,49 +12286,13 @@ Wingblade Reverb,羽刃の切り返し
 Dog Thiren's Secret Bases,とっておきの場所
 Dogs of the Underworld,冥妃の愛犬
 Doggy Vouchers,ワンワン引換券
-Dollies,ドリーDorī
+Dollies,ドリー
 Dongyao Pain Relief Patches,経脈静穏薬
 Blooms of Doom,doom bloom
 Doors to the Lobby,ロビーのドア
 Dopamine Vacation Plans,ドーパミン・ホリデー・プロジェクト
 Ionized - Doppelgangers,電離体・ドッペルゲンガー
-Doppelganger - The Defectors,"ドッペルゲンガー・「背信者」
-ドリアンDorian,ドリアン
-渦巻く疑雲Uzumaku Gi'un,渦巻く疑雲
-ロア先生Roa Sensē,ロア先生
-ドリームレス・ヒーローDorīmuresu Hīrō,ドリームレス・ヒーロー
-ドルDoru,ドル
-メッセージボトルMessēji Botoru,メッセージボトル
-メッセージボトルNO.1Messēji Botoru No.1,メッセージボトルNO.1
-メッセージボトルNO.2Messēji Botoru No.2,メッセージボトルNO.2
-メッセージボトルNO.3Messēji Botoru No.3,メッセージボトルNO.3
-ドリフトテクニックDorifutotekunikku,ドリフトテクニック
-ドリルリグ-レッドシャフトDoriru Rigu - Reddo Shafuto,ドリルリグ-レッドシャフト
-夕焼けへGO！,夕焼けへGO！
-夢縋りYume Sugari,夢縋り
-アリーナメダルArīnamedaru,アリーナメダル
-デュラハンDyurahan,デュラハン
-ダスク・イン・ザ・ワイルドDasuku In Za Wairudo,ダスク・イン・ザ・ワイルド
-無限ループMugen Rūpu,無限ループ
-ディランDiran,ディラン
-強化特殊スキル：V式サンライズ・アッパー-フルストローク,強化特殊スキル：V式サンライズ・アッパー-フルストローク
-エコールームEkōrūmu,エコールーム
-シルバーの復活Shirubā no Fukkatsu,シルバーの復活
-エドガーEdogā,エドガー
-エドモンドEdomondo,エドモンド
-エーゲĒge,エーゲ
-エリナーErinā,エリナー
-電気属性Denki Zokusē,電気属性
-露電幻夢ⅠRoden Genmu I,露電幻夢Ⅰ
-電撃リップグロスDengeki Rippugurosu,電撃リップグロス
-ビリビリボンプBiribiribonpu,ビリビリボンプ
-優美のヴァニティYūbi no Vaniti,優美のヴァニティ
-エレベーターErebētā,エレベーター
-エイファEifa,エイファ
-エリアナEriana,エリアナ
-抹殺リストMassatsu Risuto,抹殺リスト
-エリスErisu,エリス
-「精鋭」アシスタントボンプ""""Seiei"""" Ashisutanto Bonpu"""
+Doppelganger - The Defectors,ドッペルゲンガー・「背信者」
 Dorians,ドリアン
 Dormant Tides,眠花暗流
 Double-Sided Armors,棘の鎧（両面）
@@ -12494,7 +12507,7 @@ Ellen's Namecards,エレンの名刺
 Ellen After Classes,放課後のエレンさん
 Ellen Scissorhandss,シザーテイル
 Ellen Tactical Prism Programs,エレンの戦術プリズム構想
-Elmoes,エルモErumo
+Elmoes,エルモ
 Elongations,のび～～～る
 Elpis' Ultimate Anglers,エルピス最強釣り師
 Elpis Ultimate Angler Championships,エルピス最強釣り師決定戦
@@ -12522,7 +12535,7 @@ En-normous Surprise!s,「ンナンナ」大サプライズ！
 Encores,舞台よ永遠に
 Encrypted Master Tapes,暗号化マスターテープ
 Ends of Unfinished Dreams,消えぬ夢が尽きる頃に
-Endings at Last...?,ついに、エンディングなの…？
+Endings at Last...?,ついに、エンディングなの(‍かかText for Wise‍)…？
 Endless Ascension: Smooth Paths,終わりなき登攀・坦途
 Smooth Path,終わりなき登攀・坦途
 Endless Ascension Is,終わりなき登攀Ⅰ
@@ -12741,7 +12754,8 @@ Film Critics,映画評論家
 Film Curators,映画マスター
 Film Screening Times,ビデオ鑑賞
 Final Battles,最後の戦い
-Ultimate: Final Curtains,終結スキル：フィナーレ
+Ultimate: Final Curtains,終結スキル：フィナーレ_JP0A
+Final Curtain,フィナーレ_JP0A
 Final Doses,最後の一服
 Final Gambits,辿り着く終局
 Final Notices,最後の通告
@@ -12936,6 +12950,7 @@ Goblins,ゴブリン
 Goblin - Energizeds,ゴブリン・蓄エネ型
 God-Speed Drifts,スピード・ドリフト
 God-Speed Drifts,高速ドリフト
+Godfingers,「GOD FINGER」
 Godfinger Ultimate Showdowns,決戦！「GOD FINGER」の頂
 Going With the Flows,浮き波に身をまかせ
 Gold Callings,黄金招来
@@ -12998,7 +13013,7 @@ Greta - Energizeds,グレーテル・蓄エネ型
 Greta - Overclockeds,グレーテル・高周波数型
 Grievings,悼む者
 Grill O'Wisps,燔火の朧夜
-Zoes,ゾーイZōi
+Zoes,ゾーイ
 Ground Quartzes,石英砂
 Grumpy Groundhogs,怒りっぽいマーモット
 Guard Boars: Spinning Swing!s,イノシシ親衛隊：回転打法！
@@ -13064,6 +13079,7 @@ Hanss,ハンス
 Hans - Overclockeds,ハンス・高周波数型
 Happy Blaze Buddys,友情に火をつけて
 Hard Minerals,固い鉱石
+Soldier 11S,「11号」
 Harleys,ハーレー
 Harmless Wanderers,無害な放浪者
 Harmonic Pacts,響き合う旋律
@@ -13076,16 +13092,16 @@ Haunted House Challenges,「暗闇ホラーハウス」挑戦
 Hawara Hollows,ハワーラホロウ
 Hay Fever Is,「花粉症I」
 Hay Fever IIS,「花粉症II」
-Haytors,ハイヨト
-Hazels,ヘーゼル
+Haytors,ハイヨトHaiyoto
+Hazels,ヘーゼルHēzeru
 Head-Ons,脳天目掛けて
 Head Maid's Coffee Times,メイド長のティータイム
 Health Plans,ヘルシー計画
-Hearts of Machines,マシナリー・ハート
+Hearts of Machines,マシナリー・ハートMashinarī Hāto
 Hearts of Porcelume,輝磁の心臓
 Heartfelt Tearss,真心の涙
 Heartfelt Wishes,成就する願い
-Heartstring Nocturnes,心弦のノクターン
+Heartstring Nocturnes,心弦のノクターンShinken no Nokutān
 Heartwarming Games,あったかゲーム
 Heat Haze Amplifiers,増幅器「カゲロウ」
 Heating Tests,昇温テスト
@@ -13322,21 +13338,22 @@ Investigation Continueses,調査続行
 Investigation Meritss,調査スコア
 Investigation Points,調査ポイント
 Investigation Specializations,調査特化
-Investigation Zones,探査
+Investigation Zones,探査Tansa
 Investigation Zone Adventureses,探査モード、オン！
-Investigators,調査員
+Investigators,調査員Chōsain
 Investigator Training Courses,調査員講座
 Invincibles,向かうところ敵なし
 Invincible Speeds,速さに勝るものなし
 Invisible Assistants,見えない助っ人
-Invitations to Kill,殺意の誘い
+Invitations to Kill,殺意の誘いSatsu'i no Sasoi
 Ionized - Cyrtoideas,電離体・セトリア
+Ionized - Doppelgangers,電離体・ドッペルゲンガーDenritai - Dopperugengā
 Ionized - Dullahans,電離体・デュラハン
 Ionized - Farbautis,電離体・ファールバウティ
 Ionized - Nassellarias,電離体・ナセリア
 Ionized - Pugnuses,電離体・プグヌス
 Ionized - Thanatoss,電離体・タナトス
-Ionized Doppelganger Komano Manatoes,電離体・ドッペルゲンガー・狛野真斗
+Ionized Doppelganger Komano Manatoes,電離体
 Irises of the Shore,イチハツは水辺に咲いて
 Iron Law and Outlawss,鉄則と暴挙
 Iron Princesses,鋼鉄のお姫様
@@ -13370,11 +13387,13 @@ Jane - Relentless Pursuits,[ジェーン]容赦なき追撃
 Jane - Relentless Pursuit,容赦なき追撃
 Jane - Venomous Edges,[ジェーン]尖った毒牙
 Jane - Venomous Edge,尖った毒牙
+Jane Does,ジェーン・ドゥJēn Du
 [Jane]s,[ジェーン]
 Jane Tactical Prism Programs,ジェーンの戦術プリズム構想
+Janus Quarters,ヤヌス区Ya'nusu Ku
 Janus Quarters,ヤヌス区
-Jeans,琴音
-Jens,ジェン
+Jeans,琴音Kotone[!][!]Assumed reading
+Jens,ジェンJen
 Jia'aos,カオ
 Jia Haos,ジャーハオ
 Jiaweis,嘉偉
@@ -13611,7 +13630,7 @@ Lost Investigation Teams,迷子の調査チーム
 Lost Items,落とし物捜索
 Lost Supply Boxes,サプライボックス
 Lost Then Founds,失せものは返る
-Resoniums,レゾブレムRezoburemu
+Resoniums,レゾブレム
 Lost W-Engines,紛失した音動機
 Lotus Lucid Dreams,蓮の夢
 Lotus Platforms,蓮台
@@ -13758,7 +13777,7 @@ Memorieses of Meeting,出会いの思い出
 Memory Boards,思い出コレクション
 Memory Shards,記憶の欠片
 Memorys of Cinder Lake,火の湖の思い出
-Meow~s,ニャ～Nya~
+Meow~s,ニャ～
 Mercury Cores,コア・「マーキュリー」
 Merfolks,人魚
 Mermaid Legends,人魚の伝説
@@ -14008,7 +14027,7 @@ NEDF! OPEN UP!S,NEDF！OPEN UP！
 New Eridu Public Securitys,新エリー都治安局
 NEPS Lumina Branches,治安局ルミナ分署
 Nachis,ナッチ
-Tsukishiro Yanagis,月城柳Tsukishiro Yanagi
+Tsukishiro Yanagis,月城柳
 Nalas,ナラン
 Nap Times,うとうとタイム
 Narrow Escapes,九死一生
@@ -14105,7 +14124,7 @@ Nots a Foodie,グルメじゃなくて
 Nots a Nightmare,悪夢じゃなくて
 Nots a Single Nap!,居眠りゼロ！
 Nots for Sale,買わずに見るだけ
-Noteses,メモ
+Noteses,メモMemo
 Nothing Can Stop Yous,阻むものなし
 Nothing Wanteds,買いたいものがないお買い物
 Notorious - Hatis,要警戒・ハティ
@@ -14137,7 +14156,7 @@ Special Attack: Obstruction Removals,特殊スキル：障害撤去
 Obtain Plug-Ins,プラグイン獲得
 Ocean Anglings,遠海フィッシング
 Off-Duty Modes,退勤モード
-Zhu Yuans,朱鳶Shu En
+Zhu Yuans,朱鳶
 Officer Cuis,ツェイ巡査
 Officer Cui Cores,コア・「ツェイ巡査」
 Official Investigator Logs,正式調査員の記録
@@ -14257,7 +14276,7 @@ Pairs of Handcuffs,手錠
 Pals,パウル
 Pale Wastelands,「虚白なる悪地」
 Palicuses,パリクス
-Pan Yinhus,潘引壺Pan Infū
+Pan Yinhus,潘引壺
 Pan Yinhu's Namecards,潘引壺の名刺
 Papago Hollows,パパゴホロウ
 Paper Armor: Impact Modes,段ボールアーマー・衝撃モード
@@ -14322,8 +14341,11 @@ Personal Image Managements,イメージ管理
 Personalized Extra Meal!s,特別メニュー！
 "Pet ""Tumtum""s",「タプちゃん」なでなで
 Peytons,ペイトン
+Phaethons,パエトーン
 Phaethon's Melodys,「パエトーン」の歌
 Phaethon's Storys,パエトーンの軌跡
+Dodge: Phantoms,回避：残影
+Phantom,残影
 Phantom Hunts,シャドウズ・ハント
 Phantom Paths,災厄が覆う道
 Phantom Thief Extraordinaires,怪盗の心得
@@ -14405,9 +14427,9 @@ Qi Yus,斉漁
 Priceless Display Cabinets,価値あるショーケース
 Priceless Photos,かけがえのない写真
 Pride and Paranoias,高慢と偏執
-Primal Malice Is,「原始の悪意I」
-Primal Malice IIS,「原始の悪意II」
-Primal Malice IIIS,「原始の悪意III」
+Primal Malice Is,原始の悪意I
+Primal Malice IIS,原始の悪意II
+Primal Malice IIIS,原始の悪意III
 Primordial Black Holes,原初のブラックホール
 Private Jaegers,練達猟兵
 Pro Players,プロゲーマー
@@ -14430,7 +14452,6 @@ Proofs of Courage,勇気の証
 Protective Drill (Burst Mode),サポート・ドリルブレイク（爆発状態）
 Proto Punks,プロト・パンク
 Prototype Seals,原型バッジ
-Provisional Security Canines,臨時治安犬_JP0A
 Proxys,プロキシ
 Reconnecteds,再接続
 Proxy Businesses,プロキシ
@@ -14509,6 +14530,8 @@ Quick Assist: Frostwing Guards,クイック支援：あなたを覆う羽
 Frostwing Guard,あなたを覆う羽
 Quick Assist: Intertwined Stabs,クイック支援：オルタナスラスト
 Quick Assist: Lane Changes,支援スキル：車線変更
+Quick Assist: Lutz Jumps,クイック支援
+Lutz Jump,クイック支援
 Quick Assist: Searing Slashes,クイック支援：焦痕斬り
 Searing Slash,焦痕斬り
 Quick Assist: Shark Sentinels,クイック支援：護衛シャーク
@@ -14749,6 +14772,8 @@ Safety Zoneses,安全エリア
 Safies,イチロ
 Sailume Bays,泅瓏囲
 Sailume Bay Pursuits,泅瓏を尋ねて
+Basic Attack: Salchow Jumps,通常攻撃：サルコウジャンプ
+Salchow Jump,サルコウジャンプ
 Sampling Cart: Blacks,サンプリングカート-黒
 Black,サンプリングカート-黒
 Sampling Cart: Whites,サンプリングカート-白
@@ -14919,7 +14944,7 @@ Sedative (S)S,鎮静剤（小）
 See you. Mewmew!s,またね、にゃんきち！
 Seed's Footprintss,「シード」という名の足跡
 Seed's namecards,「シード」の名刺
-Seed Sr.s,「ビッグ・シード」
+Seed Sr.s,ビッグ・シード
 Seemed Too Difficult Is,エーテル・グルグルⅠ
 Seemed Too Difficult IIS,エーテル・グルグルⅡ
 Seemed Too Difficult IIIS,エーテル・グルグルⅢ
@@ -14976,13 +15001,14 @@ Shinings,きらめき
 Shining - Instrumentals,Shining - Instrumental
 Shining Hairs,きれいな髪のひみつ
 Shiyu Defenses,式輿防衛戦
+Critical Nodes,激変ノード
 Critical Nodes,危局ノード
 Stable Nodes,安定ノード
 Shiyu Defense: Adaptions,式輿防衛・応変
 Adaption,式輿防衛・応変
 Shiyu Defense: Waypoints,式輿防衛・アンカーポイント
 Waypoint,式輿防衛・アンカーポイント
-Ye Shiyuans,葉釈淵Yō Shakuen[11]
+Ye Shiyuans,葉釈淵
 Shnnnn~s,Shnnnn…
 Shock-Like Sensation Is,ビリっときたⅠ
 Shock-Like Sensation IIS,ビリっときたⅡ
@@ -15004,7 +15030,7 @@ Show Time!s,幻の幕開け！
 Shower Tipss,お風呂のコツ
 Shuis,シュイ
 Shuns,順くん
-Ye Shunguangs,葉瞬光Yō Shunkō[3]
+Ye Shunguangs,葉瞬光
 噬魂犬S,噬魂犬
 Smarts,チーチー
 Sibling Friendships,「仲良し」兄妹
@@ -15086,8 +15112,8 @@ Sophias,ソフィア
 Soras,Sora
 Sordiduses,ソルデドゥス
 Sordidus - Energizeds,ソルデドゥス・蓄エネ型
-Additional Ability: Sore Spots,追加能力：痛いところ_JP0A
-Sore Spot,痛いところ_JP0A
+Additional Ability: Sore Spots,追加能力：痛いところ
+Sore Spot,痛いところ
 Soukaku's Namecards,蒼角の名刺
 Soukaku's Ridu Tours,蒼角のエリーツアー
 Soul Hounds IIIS,ソウルハウンドIII
@@ -15115,8 +15141,6 @@ Spacebars,空白
 Sparkstones,火打石
 Specials,特殊
 """Windchimes & Oaths""",風鈴といつかの約束
-Special Attack: Aerial Sweeps,特殊スキル：空掠める_JP0A
-Aerial Sweep,空掠める_JP0A
 Special Attack: Azure Flashes,特殊スキル：星雷
 Azure Flash,星雷
 Special Attack: Blazing Chambers,特殊スキル：熱血全開
@@ -15141,7 +15165,8 @@ Special Attack: Spectral Flashes,特殊スキル：幽閃
 "Special Attack: Spin, Bro!s",特殊スキル：回れ、兄弟！
 Special Attack: Stand Stills,特殊スキル：大人しくしてろ！
 Sugarcoated Bullets,シュガーボム
-Basic Attack: Sunlit Glorys,特殊スキル：昼錦堂
+Basic Attack: Sunlit Glorys,特殊スキル：昼錦堂_JP0A
+Sunlit Glory,昼錦堂_JP0A
 "Surging Cold, Crushing Pursuit",寒風・追砕
 Special Attack: Surprise Attacks,特殊スキル：奇襲
 Surprise Attack,奇襲
@@ -15235,7 +15260,7 @@ Starloops,スターループ
 Starloop VIP Lounges,スターループ・VIPボックス席
 Starries,星彩
 Stars' Trials,星々の試し
-Stars Aligns,星が交わるとき
+Stars Aligns,Stars Align星が交わるときStars Align
 Starss of Lyra,スターズ・オブ・リラ
 Starss of Lyra+,スターズ・オブ・リラ
 Starshine Shifts,スターシャイン・コンヴァート
@@ -15296,10 +15321,10 @@ Stuns,撃破
 Stun Components,撃破キット
 Stun Diaphragm Tests,撃破・振動膜テスト
 Stun Drills,撃破演習
-Stunt Coordinator Needed ASAP!S,「アクション監督急募！」
+Stunt Coordinator Needed ASAP!S,アクション監督急募！
 Sturdy Obstacles,頑固な障害物
 Style Above All!s,スタイルは崩さない！
-Styxes,「ステュクス」
+Styxes,ステュクス
 Subtle Winks,ゆらゆらウインク
 Suibian Temples,適当観
 Suibian Temple Atriums,適当観外庭
@@ -15313,6 +15338,7 @@ Summits of Clouds,雲を眺める山のごとく
 Sumoboos,オスモウボンプ
 Sumoboo Cores,コア・「オスモウボンプ」
 Suns,隼
+"""Sunbringer""s",サンブリンガー
 Sunflints,サン・フリント
 Sunflowers,ヒマワリ
 Sunken Waveses,空を打つ波
@@ -15356,6 +15382,9 @@ Sweet and Juicys,スイート＆ジューシー
 Sweetcakes That Never Expires,賞味期限の切れないお団子
 Sweetys,紅豆
 Swift Justices,速さは正義
+Dodge Counter: Swift Shadows,回避反撃：疾影
+Swift Shadow,疾影
+Swift Shadow Dance,疾影の舞
 Swift Stepss,身軽な体
 Swift Supplys,即時補給
 Swift as the Winds,疾風の如く
@@ -15511,7 +15540,7 @@ Unravelling,断層の謎・分析解明
 The Needs for Speed,スピード狂
 The Only Embraces,たった一度のハグ
 The Opportunists,「投資家」
-The Other Moles,「もう一人のスパイ」
+The Other Moles,もう一人のスパイ
 The Phantom Thief’s Confessions,怪盗の本心
 The Port Peaks,ポッター・ヒル
 The Prices of Teamilk,ティーミルクの代償
@@ -15537,7 +15566,7 @@ The Story Continueses,「物語はまだまだ続く」
 "The Tastes of ""Warmth""",「あったかい」匂い
 The Tastes of Coffee,コーヒーの味わい
 "The Tower, Reverseds",塔の逆位置
-The True Prophecys,真・アンダープロフェシーShin - Andā Purofeshī
+The True Prophecys,真・アンダープロフェシー
 The Truths,真相
 The Ultimate Collectibleses,超ド級のとっておき
 The Ultimate Grand Prizes,スーパー無敵の最高賞
@@ -15659,7 +15688,7 @@ Trial: Security Patrols,お試し：巡回警備
 Security Patrol,巡回警備
 Tributary Ferrymen,支流の旅人
 Tricks and Witss,小細工と小賢しさ
-Triggers,「トリガー」
+Triggers,トリガー
 Trigger's Namecards,「トリガー」の名刺
 Trigger Switches,触発式スイッチ
 Tropaeolums,キンレンカ
@@ -15700,7 +15729,7 @@ Tyrfing (Infested)s,ティルヴィング（寄主形態）
 Tyrfing - Energizeds,ティルヴィング・蓄エネ型
 Tyrones,タイロン
 Tysons,泰三
-Ukinami Yuzuhas,浮波柚葉Ukinami Yuzuha
+Ukinami Yuzuhas,浮波柚葉
 Ukinami Yuzuha's Namecards,浮波柚葉の名刺
 "Ultimate: ""Fantasian Sonata""s",終結スキル：幻想のソナタ
 """Fantasian Sonata""",幻想のソナタ
@@ -15735,9 +15764,9 @@ Ultimate Calculationss,裏の裏まで占う
 Ultimate Karaoke Kings,超級・カラオケ王
 Ultimate Pranks,イタズラの奥義
 Ultimate Summer Challenge!s,真夏の最終挑戦！
-Uncanny Valley Is,「不気味の谷I」
-Uncanny Valley IIS,「不気味の谷II」
-Uncanny Valley IIIS,「不気味の谷III」
+Uncanny Valley Is,不気味の谷I
+Uncanny Valley IIS,不気味の谷II
+Uncanny Valley IIIS,不気味の谷III
 Unclaimed Cargo Boxes,主なきコンテナ
 Uncle A-Fangs,方おじさん
 Uncle Hongs,ホンおじさん
@@ -15877,6 +15906,7 @@ Wasteland Promises,悪地への招待状
 Watch Your Heads,頭上注意
 Watch Your Steps,足元注意
 Water Lilys,スイレン
+Waterfall Soups,麺屋錦鯉
 Waterfall Soup's Special Treatments,錦鯉の特別メニュー
 Ways of Clouds,雲嶽の道
 Wayland Murphys,ウェーランド・マーフィー
@@ -15949,8 +15979,8 @@ Wills to Overcome Adversity,逆境に打ち勝つ意志
 Williams,ウィリアムUiriamu
 Willingly Baiteds,飛んで火に入る夏の虫
 Williss,ウィリスWirisu
-Winds of the Wild,ウィンド・オブ・ザ・ワイルド
-Windchaser Harumasas,風追いの羽
+Winds of the Wild,ウィンド・オブ・ザ・ワイルドWindo Obu Za Wairudo
+Windchaser Harumasas,風追いの羽Kaze'oi no Hane
 Windguide Talismanss,風に揺れる帯
 Winding Roseses,トキンバラの葬香
 Window Shopping Isn't Workings,勤務外ショッピング
@@ -15958,7 +15988,7 @@ Window Shopping Isn't Workings,勤務外ショッピング
 "Windrider, Wavebreaker (II)S",波を駆ける・其の二
 "Windrider, Wavebreaker (III)S",波を駆ける・其の三
 Windsong Tasselss,風にそよぐ朱糸
-Wises,アキラAkira
+Wises,アキラ
 Wish Bottles,夢追うボトル
 Wish Bottle Adrifts,夢追うボトル物語
 Journey's Beginning,夢追うボトル物語・夢を追って出発
@@ -16017,10 +16047,10 @@ Yesterday's Stage (I)S,取り残された舞台・その一
 Yesterday's Stage (II)S,取り残された舞台・その二
 Yesterday Callss,昨夜からの着信
 Yis,乙
-Yixuans,儀玄Īshen
+Yixuans,儀玄
 Yidhari's Namecards,イドリーの名刺
 Yidhari Tactical Prism Programs,イドリーの戦術プリズム構想
-Yijiangs,儀降Īshan
+Yijiangs,儀降
 Yixuan's Namecards,儀玄の名刺
 Yixuan Tactical Prism Programs,儀玄の戦術プリズム構想
 You're Here?!s,来たんだよな？相棒！
@@ -16044,7 +16074,7 @@ Yuzuha Tactical Prism Programs,柚葉の戦術プリズム構想
 Z-Meritss,零号スコア
 ZENLESSES,ZENLESS
 Zandras,ザンドラ
-Zanes,ゼーンZēn
+Zanes,ゼーン
 Zanshin Herb Cases,残心の青籠
 Zenless Limits,ゼンレス限界
 Zenless Limit Gauges,ゼンレス限界測定器
@@ -16061,6 +16091,7 @@ Zhu Yuan's Namecards,朱鳶の名刺
 Zi Xus,子虚
 Zimoes,子墨
 Zoras,ゾラ
+æ%€æ$ Please Help!s,縺繝を救え
 「芝托邦」变奏曲S,「芝托邦」变奏曲
 上菜S,上菜
 不可触碰S,不可触碰
@@ -16125,6 +16156,7 @@ Zoras,ゾラ
 胜负已分S,胜负已分
 自在一日S,自在一日
 荒唐童谣S,荒唐童谣
+Winds of the Wild,ウィンド・オブ・ザ・ワイルド
 菓S,菓
 虚境脱轨S,虚境脱轨
 虚无S,虚无
@@ -16149,28 +16181,82 @@ Zoras,ゾラ
 黑兔子S,黑兔子
 黑暗深处S,黑暗深处
 黑色变调夹S,黑色变调夹
-Wises,アキラ
-Resoniums,レゾブレム
-Zhu Yuans,朱鳶
-Amillions,アミリオン
-Godfingers,「GOD FINGER」
-Tsukishiro Yanagis,月城柳
+[Critical] Sniper Scopes,[会心]ライフルスコープ
+Sniper Scope,ライフルスコープ
+[Duel] Tonfas,[決闘]トンファー
+Tonfa,トンファー
+[Critical] Spare Magazines,[会心]予備マガジン
+Spare Magazine,予備マガジン
+[Critical] Duelists,[会心]清算の使者
+Duelist,清算の使者
+[Critical] RPG Shells,[会心]RPGロケット弾
+RPG Shell,RPGロケット弾
+[Critical] Gatling Guns,[会心]ガトリング砲
+Gatling Gun,ガトリング砲
+[Critical] Doombringers,[会心]パニックダイナマイト
+Doombringer,パニックダイナマイト
+[Critical] Sawn-Off Shotguns,[会心]ソードオフショットガン
+Sawn-Off Shotgun,ソードオフショットガン
+[Shock] EMP Grenades,[感電]EMPグレネード
+[Energy] Neon Colas,[エネルギー]ネオンコーラ
+Neon Cola,ネオンコーラ
+[Energy] Scarlet Noble Specials,[エネルギー]紅男爵・シークレット
+Scarlet Noble Special,紅男爵・シークレット
+[Hollow] Giveaway CDS,[ホロウ]付録CD
+Giveaway CD,付録CD
 P&mdash;Please allow me!,わ、私がやります！
 EX Special Attack:&nbsp;Really Heavys,強化特殊スキル：兆、重たい
 &nbsp;Really Heavy,兆、重たい
 Chain Attack:&nbsp;Buckle Ups,連携スキル：シートベルト！
 &nbsp;Buckle Up,シートベルト！
-[Info] Proxy Must-Knows: Carrotss,【豆知識】プロキシの一般教養&mdash;&mdash;「キャロット」編
-Carrots,【豆知識】プロキシの一般教養&mdash;&mdash;「キャロット」編
-Dollies,ドリー
-Dinahs,ディナ
+Attacks on Cyberz,アタック・オン・サイバーズ
+Triggers,「トリガー」
+Hearts of Machines,マシナリー・ハート
+[Critical] Weapon Crates,[会心]武器箱
+Weapon Crate,武器箱
+[Critical] Tactical Goggleses,[会心]軍用ゴーグル
+Tactical Goggles,軍用ゴーグル
+[Critical] Collective Emblems,[会心]レゾサイン
+[Energy] Raging Taurines,[エネルギー]覚醒タウリン
+Raging Taurine,覚醒タウリン
+[Hollow]s,[ホロウ]
+My BGM is On,処刑用BGM、ON
+[Ignite] Electric BBQ Grills,電気BBQグリル
+Electric BBQ Grill,電気BBQグリル
+VIP Ejection Seat,射出式VIP席
+Jens,ジェン
+Super dope Proxy names?,カッコいいプロキシID募集中
+[Info] Proxy Must-Knows: Carrotss,プロキシの一般教養&mdash;&mdash;「キャロット」編
+Carrots,プロキシの一般教養&mdash;&mdash;「キャロット」編
 Vision's shocking scandal exposed &mdash; Perlman is going to jail!,【雑談】ヴィジョンに驚愕の不祥事発覚！パールマン逮捕！
 "The CALM&nbsp;urban lightweight vehicle, unassuming yet exceptional!",【広告】カーム シティ軽自動車、サイレントかつエクセレント！
+Uncanny Valley Is,「不気味の谷I」
+Primal Malice Is,「原始の悪意I」
+Hay Fever Is,花粉症I
+Shadows of Horror II,恐怖の影II
+Shadows of Horror III,恐怖の影III
+Shadows of Horror IV,恐怖の影IV
+Shadows of Horror V,恐怖の影V
+Megalophobia IIS,メガロフォビアII
+Megalophobia IIIS,メガロフォビアIII
+Megalophobia IVS,メガロフォビアIV
+Hay Fever IIS,花粉症II
+Basic Attack: Dancing Bladeses,通常攻撃：ダンシング・ナイフ
 Quick Assist:&nbsp;Dark Thorns,クイック支援：黒い茨
 &nbsp;Dark Thorn,黒い茨
+Defensive Assist: Last Defenses,パリィ支援：最後の防衛線
+Last Defense,最後の防衛線
+Assist Follow-Up: Gale Sweeps,支援突撃：疾風のなぎ払い
+Gale Sweep,疾風のなぎ払い
+Ultimate: Final Curtains,終結スキル：フィナーレ
+Provisional Security Canines,臨時治安犬
+Basic Attack: Sunlit Glorys,特殊スキル：昼錦堂
+Bangboo Diet Plans,ボンプダイエット計画
 I&mdash;It's Burning!s,燃えてきたぁぁ！
-Amys,エミー
+Seed Sr.s,「ビッグ・シード」
 Rally! Uhn-ne uhn-ne!s,あつまれ ンナンナの友
+Area Codename: UC-0015S,エリアコード：UC-0015
+UC-0015,UC-0015
 M&mdash;Maid's Photobook!s,メ、メイドさんの写真！
 Dynamic Wallpaper: Anbys,ライブ壁紙 アンビー
 Anby,ライブ壁紙 アンビー
@@ -16216,19 +16302,26 @@ Professional Hollow Service ★ Signal Repair,【依頼】ホロウ専門サー�
 Professional Hollow Service ★ Light Repair,【依頼】ホロウ専門サービス★電球修理
 Dynamic Wallpaper: Burnices,ライブ壁紙 バーニス
 Burnice,ライブ壁紙 バーニス
-Ace Bangboo Assistants,「エース」アシスタントボンプ
+"""Backstream""s",「巻き戻し」
+Investigators,調査員
 Dynamic Wallpaper: Lighters,ライブ壁紙 ライト
 Lighter,ライブ壁紙 ライト
+[Affinity] 17-Item Check-Ups,[適合]17件のチェック項目
+17-Item Check-Up,17件のチェック項目
 The Kid ⅠS,幼子Ⅰ
 The Kid ⅡS,幼子Ⅱ
 The Kid ⅢS,幼子Ⅲ
+Jeans,琴音
+[Affinity] Haiku Swordplays,[適合]俳句剣術
+Haiku Swordplay,俳句剣術
 Dynamic Wallpaper: Miyabis,ライブ壁紙 星見雅
 Miyabi,ライブ壁紙 星見雅
-Meow~s,ニャ～
 Chaos Zetas,カオス ζ
-Dances of Death,絶命舞曲
-The True Prophecys,真・アンダープロフェシー
+Windchaser Harumasas,風追いの羽
 Williams,ウィリアム
+Advanced Chassis,最先端のシャーシ
+[Adversity] Dual Injection Needles,[逆境]ダブルサイド注射器
+Dual Injection Needle,ダブルサイド注射器
 Dynamic Wallpaper: Soukakus,ライブ壁紙 蒼角
 Soukaku,ライブ壁紙 蒼角
 Dynamic Wallpaper: Harumasas,ライブ壁紙 浅羽悠真
@@ -16239,7 +16332,13 @@ Dynamic Wallpaper: Wises,ライブ壁紙 アキラ
 Wise,ライブ壁紙 アキラ
 Dynamic Wallpaper: Belles,ライブ壁紙 リン
 Belle,ライブ壁紙 リン
+Heartstring Nocturnes,心弦のノクターン
 Starss of Lyra+,スターズ・オブ・リラ+
+The Other Moles,「もう一人のスパイ」
+"""4WD - Crimson Comet""s",「4WD-クリムゾン・コメット」
+"""4WD - Street Legend""s",「4WD-ストリート・レジェンド」
+"""4WD - Wasteland Knight""s",「4WD-ウェイストランド・ナイト」
+Hazels,ヘーゼル
 Stars Aligns,Stars Align 星が交わるとき
 Dynamic Wallpaper: Astra Yaos,ライブ壁紙 アストラ・アストラ
 Astra Yao,ライブ壁紙 アストラ・アストラ
@@ -16249,16 +16348,15 @@ Bangboo Angler Club,ライブ壁紙・おいでよ ボンプとの釣り
 Camellia Golden Week Guides,沙羅GWどこ行く？丨 旅行先をおすすめし合うスレ
 Chapter 1 Intermissions,第一章 幕間
 Soldier 0 - Anby,ライブ壁紙 0号・アンビー
-Zoes,ゾーイ
 Dynamic Wallpaper: Triggers,ライブ壁紙 「トリガー」
 Trigger,ライブ壁紙 「トリガー」
 Dynamic Wallpaper: Soldier 11S,ライブ壁紙 「11号」
 Soldier 11,ライブ壁紙 「11号」
 Dynamic Wallpaper: Pulchras,ライブ壁紙 プルクラ
 Pulchra,ライブ壁紙 プルクラ
-Yixuans,儀玄
 Seizing the Sea God's Offerings,第一章 供え物強奪、海神驚く
 Into the Dragon's Belly to Save the Villagers,第二章 龍の腹入りて、村人を救う
+Invitations to Kill,殺意の誘い
 Knight's Big Charge Against the Giant,第三章 巨人と対面、騎士の大突進
 A Noble Rank Bestows Great Renown,第四章 称号受領、名声轟かす
 Rivals Clash in a Fight to the Death,第五章 現れる好敵手、死闘再び
@@ -16267,29 +16365,42 @@ Rescuing the Innocent From the Execution Grounds,第七章 刑場破り、冤罪
 Finding the Assassin at the Celebration,第八章 祝典の中、奇策を以て刺客を看破
 Mastery Through the Sound of Waves,第九章 波音に耳をすませ、絶技会得
 A Single Slash to Repel the Ambush,第十章 四面楚歌、一振りの破陣
-Pan Yinhus,潘引壺
-Ye Shunguangs,葉瞬光
+Noteses,メモ
+0WD - Frostedges,「0WD-フロストエッジ」
+"""1WD - City Hunter""s",「1WD-シティハンター」
 Dynamic Wallpaper: Vivians,ライブ壁紙 ビビアン
 Vivian,ライブ壁紙 ビビアン
-Dinas,ディナ
+"""Absolute Trouble""s",「いたずら大好き」
+"""Bodhi Has No Tree""s",「元から何もなかった」
 Prologue: Intermissions,序章 幕間
 Intermission,序章 幕間
 Dynamic Wallpaper: Hugoes,ライブ壁紙 ヒューゴ
 Hugo,ライブ壁紙 ヒューゴ
-Yijiangs,儀降
 Dynamic Wallpaper: Yixuans,ライブ壁紙 儀玄
 Yixuan,ライブ壁紙 儀玄
 Dynamic Wallpaper: Ju Fufus,ライブ壁紙 橘福福
 Ju Fufu,ライブ壁紙 橘福福
-Ye Shiyuans,葉釈淵
 Dynamic Wallpaper: Pan Yinhus,ライブ壁紙 潘引壺
 Pan Yinhu,ライブ壁紙 潘引壺
-Ukinami Yuzuhas,浮波柚葉
+Crispy Star Biscuits,クリスピースタークッキー
+Stunt Coordinator Needed ASAP!S,「アクション監督急募！」
+Bangboo Energy Module Plug-Ins,ボンプエネルギープラグイン
+[Craft] A-Songs,[製造]マツ
+A-Song,マツ
+[Craft] A-Nings,[製造]ネイ
+A-Ning,ネイ
+"""Changes of plans""",「計画通り」じゃない
+[Craft] Xiaoshuos,[製造]サク
+Xiaoshuo,サク
+Bangboo Boo-Napperss,キッド・ナンナン・プー
 Orange Fanta Cans,「ファンタ オレンジ」ドリンク缶
 Orange Fanta Commemorative Cans,「ファンタ オレンジ」記念缶
+Crispyboos,サクサクボンプ
 Dynamic Wallpaper: Yuzuhas,ライブ壁紙 柚葉
 Yuzuha,ライブ壁紙 柚葉
+"""Roger""s",「ロジャー」
 Williss,ウィリス
+Styxes,「ステュクス」
 Dynamic Wallpaper: Alices,ライブ壁紙 アリス
 Alice,ライブ壁紙 アリス
 Mr. ZZES,ミスター Z
@@ -16297,7 +16408,6 @@ Mr. ZZES,ミスター Z
 Dynamic Wallpaper: Seeds,ライブ壁紙 「シード」
 Seed,ライブ壁紙 「シード」
 Endings at Last...?,ついに、エンディングなの
-Doppelganger - The Defectors,ドッペルゲンガー・「背信者」
 Lunalux Garrotes,輝夜の糸·弦
 Orphie & Magus,ライブ壁紙 オルペウス＆「鬼火」
 Dynamic Wallpaper: Lucias,ライブ壁紙 リュシア
@@ -16305,13 +16415,12 @@ Lucia,ライブ壁紙 リュシア
 Dynamic Wallpaper: Manatoes,ライブ壁紙 真斗
 Manato,ライブ壁紙 真斗
 I'm Porter Boyds,オレの名前は、富東 多良喜だ！
-Zanes,ゼーン
+Ionized Doppelganger Komano Manatoes,電離体・ドッペルゲンガー・狛野真斗
+Haytors,ハイヨト
 Dynamic Wallpaper: Yidharis,ライブ壁紙 イドリー
 Yidhari,ライブ壁紙 イドリー
-Elmoes,エルモ
 Dynamic Wallpaper: Dialyns,ライブ壁紙 ダイアリン
 Dialyn,ライブ壁紙 ダイアリン
-Director Ohnoes,大野監督
 Warm-Up Exerciseses,ウォーミングアップ
 States of Flow,気焔万丈
 Rotational Trainings,ローテーション訓練
@@ -16897,8 +17006,6 @@ Captains,隊長
 commemorative coins,記念コイン
 Rivers of the underworld,冥府の川
 squads,小隊
-Soldier 11S,11号
-Triggers,トリガー
 fire blade attacks,炎刃攻撃
 Bottled Heats,蓄炎
 low firepower phases,低火力期間
@@ -17151,7 +17258,6 @@ A Storys of Sprouting,萌芽論
 Fragrant Tunes,芳香律
 Decibel Generation Rates,デシベル値獲得効率
 Ultimate DMGS,終結スキルの与ダメージ
-Seed Sr.s,ビッグ・シード
 Times to Bloom,開花刻
 Theorys of the Heart,有心説
 laser beamss,レーザー

@@ -5,18 +5,22 @@ import re
 import inflect
 import time
 import csv
+import datetime # 追加
 import google.generativeai as genai
 from tqdm import tqdm
 
 # キャッシュファイルのパス
 CACHE_FILE = "resource/ai_cleaning_cache.csv"
+# トークン使用量ログファイルのパス
+TOKEN_LOG_FILE = "resource/token_usage_log.csv"
 
 def load_cache():
     """キャッシュファイルを読み込み、辞書として返す"""
     cache = {}
     if os.path.exists(CACHE_FILE):
         try:
-            with open(CACHE_FILE, mode='r', encoding='utf-8', newline='') as f:
+            # BOM付きUTF-8にも対応できるように utf-8-sig を使用
+            with open(CACHE_FILE, mode='r', encoding='utf-8-sig', newline='') as f:
                 reader = csv.reader(f)
                 for row in reader:
                     if len(row) >= 2:
@@ -40,7 +44,23 @@ def save_to_cache(new_data):
     except Exception as e:
         print(f"キャッシュ保存エラー: {e}")
 
-def clean_text_with_ai(model, text_list):
+def log_token_usage(model_name, input_tokens, output_tokens):
+    """トークン使用量をログファイルに追記する"""
+    try:
+        file_exists = os.path.exists(TOKEN_LOG_FILE)
+        with open(TOKEN_LOG_FILE, mode='a', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            # ファイルが新規作成の場合はヘッダーを書き込む
+            if not file_exists:
+                writer.writerow(["timestamp", "model", "input_tokens", "output_tokens", "total_tokens"])
+            
+            timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            total_tokens = input_tokens + output_tokens
+            writer.writerow([timestamp, model_name, input_tokens, output_tokens, total_tokens])
+    except Exception as e:
+        print(f"トークンログ保存エラー: {e}")
+
+def clean_text_with_ai(model, model_name, text_list):
     """
     Gemini APIを使ってリスト内のテキストを一括クリーニングする
     """
@@ -63,6 +83,17 @@ def clean_text_with_ai(model, text_list):
     
     try:
         response = model.generate_content(prompt + input_text)
+        
+        # --- トークン使用量を記録 ---
+        if hasattr(response, 'usage_metadata'):
+            in_tokens = response.usage_metadata.prompt_token_count
+            out_tokens = response.usage_metadata.candidates_token_count
+            total = response.usage_metadata.total_token_count
+            
+            print(f"  [Tokens] In: {in_tokens}, Out: {out_tokens}, Total: {total}")
+            log_token_usage(model_name, in_tokens, out_tokens)
+        # -------------------------
+
         cleaned_text = response.text.strip().split('\n')
         
         # 入力と出力の数が合わない場合の安全策
@@ -154,22 +185,30 @@ def combine_glossaries():
                 if indices_to_process:
                     print(f"新たにAIクリーニングを実行します: {len(indices_to_process)}件")
                     genai.configure(api_key=api_key)
-                    model = genai.GenerativeModel('gemini-2.5-flash')
                     
-                    batch_size = 50
+                    # --- 設定ファイルからパラメータを読み込む ---
+                    model_name = config.get("model")
+                    batch_size = config.get("combine_batch_size")
+                    sleep_seconds = config.get("combine_sleep_seconds")
+                    # ----------------------------------------
+                    
+                    print(f"使用モデル: {model_name}, バッチサイズ: {batch_size}, 待機時間: {sleep_seconds}秒")
+                    model = genai.GenerativeModel(model_name)
+                    
                     new_cache_data = {}
                     
                     for i in tqdm(range(0, len(indices_to_process), batch_size)):
                         batch_indices = indices_to_process[i:i+batch_size]
                         batch_texts = combined_df.loc[batch_indices, 'ja'].tolist()
                         
-                        cleaned_texts = clean_text_with_ai(model, batch_texts)
+                        # model_name を引数に追加
+                        cleaned_texts = clean_text_with_ai(model, model_name, batch_texts)
                         
                         for idx, original, cleaned in zip(batch_indices, batch_texts, cleaned_texts):
                             combined_df.at[idx, 'ja'] = cleaned
                             new_cache_data[original] = cleaned
                         
-                        time.sleep(10) # レート制限回避
+                        time.sleep(sleep_seconds) # レート制限回避
 
                     # 新しい結果をキャッシュに保存
                     save_to_cache(new_cache_data)

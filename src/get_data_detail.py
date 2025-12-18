@@ -7,6 +7,7 @@ import re
 import json
 import sys
 import yaml
+import datetime # 追加
 import google.generativeai as genai
 from tqdm import tqdm
 
@@ -18,9 +19,37 @@ try:
     with open("resource/data.yml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
     OUTPUT_FILE = config.get("detail_output", "resource/zzz_glossary_detail.csv")
+    
+    # 追加: その他の設定値を読み込む (デフォルト値を設定)
+    MODEL_NAME = config.get("model", "gemini-2.0-flash")
+    BATCH_SIZE = config.get("detail_batch_size", 10)
+    SLEEP_SECONDS = config.get("detail_sleep_seconds", 2.0)
+    
 except Exception as e:
     print(f"Warning: Could not load data.yml, using default path. Error: {e}")
     OUTPUT_FILE = "resource/zzz_glossary_detail.csv"
+    MODEL_NAME = "gemini-2.0-flash"
+    BATCH_SIZE = 10
+    SLEEP_SECONDS = 2.0
+
+# トークン使用量ログファイルのパス (combine_glossary.pyと同じ場所)
+TOKEN_LOG_FILE = "resource/token_usage_log.csv"
+
+def log_token_usage(model_name, input_tokens, output_tokens):
+    """トークン使用量をログファイルに追記する"""
+    try:
+        file_exists = os.path.exists(TOKEN_LOG_FILE)
+        with open(TOKEN_LOG_FILE, mode='a', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f)
+            # ファイルが新規作成の場合はヘッダーを書き込む
+            if not file_exists:
+                writer.writerow(["timestamp", "model", "input_tokens", "output_tokens", "total_tokens"])
+            
+            timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            total_tokens = input_tokens + output_tokens
+            writer.writerow([timestamp, model_name, input_tokens, output_tokens, total_tokens])
+    except Exception as e:
+        print(f"トークンログ保存エラー: {e}")
 
 def get_character_entry_ids(browser):
     """
@@ -200,6 +229,15 @@ def extract_terms_batch_with_ai(model, pairs_batch):
     
     try:
         response = model.generate_content(prompt)
+        
+        # --- トークン使用量を記録 ---
+        if hasattr(response, 'usage_metadata'):
+            in_tokens = response.usage_metadata.prompt_token_count
+            out_tokens = response.usage_metadata.candidates_token_count
+            # グローバル変数の MODEL_NAME を使用
+            log_token_usage(MODEL_NAME, in_tokens, out_tokens)
+        # -------------------------
+
         text = response.text.strip()
         if text.startswith("```json"):
             text = text[7:]
@@ -329,7 +367,7 @@ def scrape_official_wiki(target_id=None):
         return
 
     # --- 3. AIによる用語抽出処理 (バッチ処理) ---
-    BATCH_SIZE = 12  # 一度に処理するペア数
+    # BATCH_SIZE はグローバル変数(設定ファイルから読み込み済み)を使用
     
     # 処理対象のデータを整形
     process_items = []
@@ -351,9 +389,9 @@ def scrape_official_wiki(target_id=None):
             "ja_desc": ja_desc
         })
 
-    print(f"Gemini APIを使用して {len(process_items)} 件のテキストペアから用語を抽出します (Batch Size: {BATCH_SIZE})...")
+    print(f"Gemini API ({MODEL_NAME})を使用して {len(process_items)} 件のテキストペアから用語を抽出します (Batch Size: {BATCH_SIZE})...")
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel(MODEL_NAME)
     
     # バッチループ
     for i in tqdm(range(0, len(process_items), BATCH_SIZE)):
@@ -362,8 +400,8 @@ def scrape_official_wiki(target_id=None):
         if terms:
             final_glossary.extend(terms)
         
-        # レート制限回避のための待機
-        time.sleep(2.0)
+        # レート制限回避のための待機 (設定ファイルの値を使用)
+        time.sleep(SLEEP_SECONDS)
 
     # --- 4. CSV保存 ---
     if final_glossary:

@@ -7,3 +7,8 @@ scraping_output: "./resource/zzz_glossary_scraping.csv"
 detail_output: "./resource/zzz_glossary_detail.csv"
 xml_output: "./resource/zzz_glossary_xml.csv"
 additional_glossary: "./resource/zzz_glossary_additional.csv"
+model: "gemma-3-27b-it"
+combine_batch_size: 5
+combine_sleep_seconds: 3
+detail_batch_size: 12
+detail_sleep_seconds: 2
